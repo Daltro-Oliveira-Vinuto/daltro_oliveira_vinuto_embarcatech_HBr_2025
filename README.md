@@ -18,4 +18,7 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 
 ---
 
+## Projects
+
+- [Galton Board Digital](./projects/galton_board)
 
