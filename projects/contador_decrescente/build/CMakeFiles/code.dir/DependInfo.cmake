@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
-  "/home/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
-  "/home/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/daltro/Codes/embedded/rp/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+  "/home/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+  "/home/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+  "/home/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -149,7 +149,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/daltro/Codes/embedded/rp/code.c" "CMakeFiles/code.dir/code.c.o" "gcc" "CMakeFiles/code.dir/code.c.o.d"
+  "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/code.c" "CMakeFiles/code.dir/code.c.o" "gcc" "CMakeFiles/code.dir/code.c.o.d"
   "/home/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" "gcc" "CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d"
   "/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" "gcc" "CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d"
   "/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c" "CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" "gcc" "CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d"
@@ -219,7 +219,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" "gcc" "CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d"
   "/home/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
-  "/home/daltro/Codes/embedded/rp/inc/ssd1306_i2c.c" "CMakeFiles/code.dir/inc/ssd1306_i2c.c.o" "gcc" "CMakeFiles/code.dir/inc/ssd1306_i2c.c.o.d"
+  "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/inc/ssd1306_i2c.c" "CMakeFiles/code.dir/inc/ssd1306_i2c.c.o" "gcc" "CMakeFiles/code.dir/inc/ssd1306_i2c.c.o.d"
   "/home/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )
 

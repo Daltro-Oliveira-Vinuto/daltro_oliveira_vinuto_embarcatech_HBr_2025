@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daltro/Codes/embedded/rp
+CMAKE_SOURCE_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daltro/Codes/embedded/rp/build
+CMAKE_BINARY_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/daltro/Codes/embedded/rp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daltro/Codes/embedded/rp/build/CMakeFiles /home/daltro/Codes/embedded/rp/build/pico-sdk/src/rp2_common/pico_btstack//CMakeFiles/progress.marks
-	cd /home/daltro/Codes/embedded/rp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_btstack/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daltro/Codes/embedded/rp/build/CMakeFiles 0
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/pico-sdk/src/rp2_common/pico_btstack//CMakeFiles/progress.marks
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_btstack/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/daltro/Codes/embedded/rp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_btstack/clean
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_btstack/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/daltro/Codes/embedded/rp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_btstack/preinstall
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_btstack/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/daltro/Codes/embedded/rp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_btstack/preinstall
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_btstack/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/daltro/Codes/embedded/rp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/daltro/Codes/embedded/rp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,7 +4,7 @@
 # compile CXX with /bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/errors
+CXX_INCLUDES = -I/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/errors
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

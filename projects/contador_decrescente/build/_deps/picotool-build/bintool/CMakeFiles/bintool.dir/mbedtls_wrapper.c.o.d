@@ -1,7 +1,7 @@
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
  /usr/include/stdc-predef.h \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

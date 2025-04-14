@@ -11,9 +11,9 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: \
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/daltro/Codes/embedded/rp/build/generated/pico_base/pico/version.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/generated/pico_base/pico/version.h \
  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/daltro/Codes/embedded/rp/build/generated/pico_base/pico/config_autogen.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/generated/pico_base/pico/config_autogen.h \
  /home/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \

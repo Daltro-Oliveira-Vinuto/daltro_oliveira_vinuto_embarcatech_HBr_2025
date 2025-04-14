@@ -1,5 +1,5 @@
 CMakeFiles/code.dir/inc/ssd1306_i2c.c.o: \
- /home/daltro/Codes/embedded/rp/inc/ssd1306_i2c.c \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/inc/ssd1306_i2c.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -27,9 +27,9 @@ CMakeFiles/code.dir/inc/ssd1306_i2c.c.o: \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/daltro/Codes/embedded/rp/build/generated/pico_base/pico/version.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/generated/pico_base/pico/version.h \
  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/daltro/Codes/embedded/rp/build/generated/pico_base/pico/config_autogen.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/generated/pico_base/pico/config_autogen.h \
  /home/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
@@ -76,5 +76,5 @@ CMakeFiles/code.dir/inc/ssd1306_i2c.c.o: \
  /home/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /home/daltro/Codes/embedded/rp/inc/ssd1306_font.h \
- /home/daltro/Codes/embedded/rp/inc/ssd1306_i2c.h
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/inc/ssd1306_font.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/inc/ssd1306_i2c.h

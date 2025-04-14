@@ -161,9 +161,9 @@ CMakeFiles/picotool.dir/data_locs.cpp.o: data_locs.cpp \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc
 
-CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami++.h \
   /usr/include/c++/11/string \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -342,7 +342,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedd
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -352,9 +352,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedd
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.c \
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -426,9 +426,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/embedded/r
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
 
-CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/main.cpp \
+CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/main.cpp \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/cli.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/cli.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -656,7 +656,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/limits \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/clipp/clipp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/clipp/clipp.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -739,12 +739,12 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /home/pico-sdk/src/host/pico_platform/include/pico/platform.h \
   /home/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
   /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
   /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/addresses.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/bintool.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/addresses.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/bintool.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /usr/include/c++/11/stdlib.h \
   /home/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
   /home/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
@@ -771,15 +771,15 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /home/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
   /home/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
   /home/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf_file.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/elf_file.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/addresses.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/metadata.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/elf.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/addresses.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/metadata.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
   /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
   /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
@@ -787,9 +787,9 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
   /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
   /home/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/otp.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/elf.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/otp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/forward_list \
   /usr/include/c++/11/bits/forward_list.h \
@@ -821,7 +821,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   /usr/include/c++/11/version \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/errors/errors.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/errors/errors.h \
   /home/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
   /usr/include/x86_64-linux-gnu/bits/ioctls.h \
@@ -833,7 +833,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
   /usr/include/x86_64-linux-gnu/sys/ttydefaults.h
 
-CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/no_otp.cpp \
+CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/no_otp.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -936,7 +936,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/bits/erase_if.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/otp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/otp.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/char_traits.h \
@@ -1013,7 +1013,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/refwrap.h \
@@ -1114,7 +1114,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
   /usr/include/c++/11/bits/sstream.tcc
 
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/no_otp.cpp:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/no_otp.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
 
@@ -1125,8 +1125,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
 /home/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
-
-/usr/include/c++/11/version:
 
 /usr/include/c++/11/bits/gslice.h:
 
@@ -1154,7 +1152,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/c++/11/unordered_map:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/otp.h:
 
 /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
@@ -1162,9 +1160,13 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/c++/11/bits/mask_array.h:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
+
 /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/metadata.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/metadata.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/elf.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -1184,8 +1186,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /home/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
@@ -1196,7 +1196,9 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /home/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/addresses.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/bintool.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/addresses.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
@@ -1205,6 +1207,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 /home/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
 
 /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
 
 /home/pico-sdk/src/host/pico_platform/include/pico/platform.h:
 
@@ -1215,8 +1219,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 /usr/include/c++/11/bits/gslice_array.h:
 
 /usr/include/c++/11/bits/stl_set.h:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/otp.h:
 
 /usr/include/c++/11/set:
 
@@ -1262,8 +1264,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf.h:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
@@ -1308,8 +1308,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/errors/errors.h:
-
 /usr/include/c++/11/bit:
 
 /usr/include/assert.h:
@@ -1339,6 +1337,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 /usr/include/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/cli.h:
 
 /usr/include/pthread.h:
 
@@ -1408,6 +1408,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/elf_file.h:
+
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
@@ -1448,6 +1450,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/c++/11/bits/stl_function.h:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
+
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
@@ -1463,10 +1467,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 data_locs.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/11/clocale:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
@@ -1550,8 +1550,6 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/std_function.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
-
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/asm-generic/errno-base.h:
@@ -1582,6 +1580,8 @@ data_locs.cpp:
 
 /usr/include/features-time64.h:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/main.cpp:
+
 /usr/include/c++/11/bits/regex_automaton.tcc:
 
 /usr/include/c++/11/ext/string_conversions.h:
@@ -1600,21 +1600,19 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
-
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/clipp/clipp.h:
-
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -1632,6 +1630,12 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/c++/11/clocale:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami.h:
+
 /home/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
@@ -1647,8 +1651,6 @@ data_locs.cpp:
 /usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf_file.h:
 
 /usr/include/c++/11/bits/regex.tcc:
 
@@ -1710,8 +1712,6 @@ data_locs.cpp:
 
 /usr/include/alloca.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.c:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -1738,8 +1738,6 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/cli.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/11/cerrno:
@@ -1762,9 +1760,13 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
+
+/usr/include/c++/11/version:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami++.h:
 
 /usr/include/c++/11/ostream:
 
@@ -1802,8 +1804,6 @@ data_locs.cpp:
 
 /usr/include/c++/11/stdexcept:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/bintool.h:
-
 /usr/include/string.h:
 
 /usr/include/c++/11/bits/streambuf.tcc:
@@ -1836,6 +1836,14 @@ data_locs.cpp:
 
 /usr/include/c++/11/cinttypes:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/whereami/whereami.c:
+
+/usr/include/c++/11/istream:
+
+/usr/include/c++/11/forward_list:
+
+/usr/include/c++/11/csignal:
+
 /usr/include/c++/11/stdlib.h:
 
 /usr/include/inttypes.h:
@@ -1843,12 +1851,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.h:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/main.cpp:
 
 /usr/include/limits.h:
 
@@ -1894,11 +1896,7 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
-/usr/include/c++/11/istream:
-
-/usr/include/c++/11/forward_list:
-
-/usr/include/c++/11/csignal:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/errors/errors.h:
 
 /usr/include/c++/11/bits/regex_scanner.h:
 
@@ -1915,6 +1913,8 @@ data_locs.cpp:
 /home/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
 
 /usr/include/c++/11/limits:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/clipp/clipp.h:
 
 /usr/include/math.h:
 

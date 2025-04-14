@@ -1,4 +1,4 @@
-prefix=/home/daltro/Codes/embedded/rp/build/_deps
+prefix=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

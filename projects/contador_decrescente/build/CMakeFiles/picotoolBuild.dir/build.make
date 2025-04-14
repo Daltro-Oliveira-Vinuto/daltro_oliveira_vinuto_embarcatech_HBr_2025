@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daltro/Codes/embedded/rp
+CMAKE_SOURCE_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daltro/Codes/embedded/rp/build
+CMAKE_BINARY_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build
 
 # Utility rule file for picotoolBuild.
 
@@ -77,62 +77,62 @@ CMakeFiles/picotoolBuild-complete: picotool/src/picotoolBuild-stamp/picotoolBuil
 CMakeFiles/picotoolBuild-complete: picotool/src/picotoolBuild-stamp/picotoolBuild-build
 CMakeFiles/picotoolBuild-complete: picotool/src/picotoolBuild-stamp/picotoolBuild-install
 CMakeFiles/picotoolBuild-complete: picotool/src/picotoolBuild-stamp/picotoolBuild-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/rp/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/CMakeFiles/picotoolBuild-complete
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/picotoolBuild-complete
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-done
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-build:
 .PHONY : picotool/src/picotoolBuild-stamp/picotoolBuild-build
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-build: picotool/src/picotoolBuild-stamp/picotoolBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && $(MAKE)
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-configure: picotool/tmp/picotoolBuild-cfgcmd.txt
 picotool/src/picotoolBuild-stamp/picotoolBuild-configure: picotool/src/picotoolBuild-stamp/picotoolBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daltro/Codes/embedded/rp/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" /home/daltro/Codes/embedded/rp/build/_deps/picotool-src
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-download: picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-install: picotool/src/picotoolBuild-stamp/picotoolBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build && $(MAKE) install
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && $(MAKE) install
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-build:
 .PHONY : picotool/src/picotoolBuild-stamp/picotoolBuild-build
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/rp/build/_deps/picotool-src
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/rp/build/_deps/picotool-build
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/rp/build/_deps
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/rp/build/picotool/tmp
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/rp/build/picotool/src
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/tmp
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-patch: picotool/src/picotoolBuild-stamp/picotoolBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-test: picotool/src/picotoolBuild-stamp/picotoolBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build && /home/daltro/Codes/embedded/rp/build/_deps/picotool/picotool version 2.1.0
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool/picotool version 2.1.0
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-update: picotool/src/picotoolBuild-stamp/picotoolBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/embedded/rp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update
 
 picotoolBuild: CMakeFiles/picotoolBuild
 picotoolBuild: CMakeFiles/picotoolBuild-complete
@@ -156,6 +156,6 @@ CMakeFiles/picotoolBuild.dir/clean:
 .PHONY : CMakeFiles/picotoolBuild.dir/clean
 
 CMakeFiles/picotoolBuild.dir/depend:
-	cd /home/daltro/Codes/embedded/rp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/embedded/rp /home/daltro/Codes/embedded/rp /home/daltro/Codes/embedded/rp/build /home/daltro/Codes/embedded/rp/build /home/daltro/Codes/embedded/rp/build/CMakeFiles/picotoolBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/picotoolBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/picotoolBuild.dir/depend
 

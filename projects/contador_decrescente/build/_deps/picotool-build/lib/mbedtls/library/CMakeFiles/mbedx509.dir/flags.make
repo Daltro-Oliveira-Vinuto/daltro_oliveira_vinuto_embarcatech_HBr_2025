@@ -4,7 +4,7 @@
 # compile C with /bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/pico-sdk/lib/mbedtls/include -I/home/pico-sdk/lib/mbedtls/3rdparty/everest/include -I/home/pico-sdk/lib/mbedtls/library -I/home/pico-sdk/lib/mbedtls/3rdparty/everest/include/everest -I/home/pico-sdk/lib/mbedtls/3rdparty/everest/include/everest/kremlib -I/home/daltro/Codes/embedded/rp/build/_deps/picotool-build/lib/mbedtls/library
+C_INCLUDES = -I/home/pico-sdk/lib/mbedtls/include -I/home/pico-sdk/lib/mbedtls/3rdparty/everest/include -I/home/pico-sdk/lib/mbedtls/library -I/home/pico-sdk/lib/mbedtls/3rdparty/everest/include/everest -I/home/pico-sdk/lib/mbedtls/3rdparty/everest/include/everest/kremlib -I/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build/lib/mbedtls/library
 
-C_FLAGS =  -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -Wformat-signedness -Wformat-overflow=2 -Wformat-truncation -Werror -Wmissing-declarations -Wmissing-prototypes -O2 -I/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/include
+C_FLAGS =  -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -Wformat-signedness -Wformat-overflow=2 -Wformat-truncation -Werror -Wmissing-declarations -Wmissing-prototypes -O2 -I/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/lib/include
 

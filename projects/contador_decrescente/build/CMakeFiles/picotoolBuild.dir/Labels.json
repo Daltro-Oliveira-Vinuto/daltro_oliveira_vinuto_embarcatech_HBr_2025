@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/CMakeFiles/picotoolBuild"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/picotoolBuild"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/CMakeFiles/picotoolBuild.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/picotoolBuild.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/CMakeFiles/picotoolBuild-complete.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/CMakeFiles/picotoolBuild-complete.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
 		},
 		{
-			"file" : "/home/daltro/Codes/embedded/rp/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
+			"file" : "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
 		}
 	],
 	"target" : 
