@@ -1,0 +1,5 @@
+/home/daltro/Codes/embedded/rp/build/_deps/picotool/picotool
+/home/daltro/Codes/embedded/rp/build/_deps/picotool/picotoolTargets.cmake
+/home/daltro/Codes/embedded/rp/build/_deps/picotool/picotoolTargets-release.cmake
+/home/daltro/Codes/embedded/rp/build/_deps/picotool/picotoolConfig.cmake
+/home/daltro/Codes/embedded/rp/build/_deps/picotool/picotoolConfigVersion.cmake
