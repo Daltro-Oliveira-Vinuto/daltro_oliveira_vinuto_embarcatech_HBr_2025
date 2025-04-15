@@ -161,9 +161,9 @@ CMakeFiles/picotool.dir/data_locs.cpp.o: data_locs.cpp \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc
 
-CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami++.h \
   /usr/include/c++/11/string \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -342,7 +342,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedd
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -352,9 +352,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedd
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.c \
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -426,9 +426,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/embedded/r
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
 
-CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/main.cpp \
+CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/main.cpp \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/cli.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/cli.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -656,7 +656,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/limits \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/clipp/clipp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/clipp/clipp.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -734,21 +734,21 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /usr/include/c++/11/cstdarg \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
-  /home/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
-  /home/pico-sdk/src/host/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /home/daltro/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+  /home/daltro/pico-sdk/src/host/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
-  /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/addresses.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/bintool.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+  /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf/addresses.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool/bintool.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /usr/include/c++/11/stdlib.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -758,38 +758,38 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
-  /home/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf_file.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+  /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf/elf_file.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/addresses.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/metadata.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  /home/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/otp.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf/elf.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf/addresses.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool/metadata.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /home/daltro/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf/elf.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/otp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/forward_list \
   /usr/include/c++/11/bits/forward_list.h \
@@ -821,8 +821,8 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   /usr/include/c++/11/version \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/errors/errors.h \
-  /home/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/errors/errors.h \
+  /home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
   /usr/include/x86_64-linux-gnu/bits/ioctls.h \
   /usr/include/x86_64-linux-gnu/asm/ioctls.h \
@@ -833,7 +833,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/p
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
   /usr/include/x86_64-linux-gnu/sys/ttydefaults.h
 
-CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/no_otp.cpp \
+CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/no_otp.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -936,7 +936,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/bits/erase_if.h \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/otp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/otp.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/char_traits.h \
@@ -1013,7 +1013,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/refwrap.h \
@@ -1114,8 +1114,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
   /usr/include/c++/11/bits/sstream.tcc
 
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/no_otp.cpp:
-
 /usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
 
 /usr/include/asm-generic/ioctl.h:
@@ -1124,9 +1122,13 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
-/home/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
+/home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/errors/errors.h:
 
 /usr/include/c++/11/version:
+
+/usr/include/c++/11/bits/mask_array.h:
 
 /usr/include/c++/11/bits/gslice.h:
 
@@ -1154,17 +1156,23 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/c++/11/unordered_map:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
 
-/home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/otp.h:
 
-/home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+/home/daltro/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
-/usr/include/c++/11/bits/mask_array.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
-/home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+/home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/metadata.h:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool/metadata.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -1172,51 +1180,51 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/c++/11/fstream:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/version.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf/elf_file.h:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/version.h:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h:
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
+
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
+
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
+
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
 /usr/include/c++/11/bits/valarray_before.h:
+
+/home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/config.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/addresses.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool/bintool.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf/addresses.h:
 
-/home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
+/home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
 
-/home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
-
-/home/pico-sdk/src/host/pico_platform/include/pico/platform.h:
-
-/home/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+/home/daltro/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
 /usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/c++/11/bits/gslice_array.h:
 
 /usr/include/c++/11/bits/stl_set.h:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/otp.h:
 
 /usr/include/c++/11/set:
 
@@ -1262,8 +1270,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf.h:
-
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
@@ -1274,7 +1280,11 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
+/home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/home/daltro/pico-sdk/src/host/pico_platform/include/pico/platform.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
@@ -1308,8 +1318,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/errors/errors.h:
-
 /usr/include/c++/11/bit:
 
 /usr/include/assert.h:
@@ -1317,6 +1325,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/11/ext/new_allocator.h:
+
+/home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -1348,7 +1358,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
@@ -1373,8 +1383,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
-
-/home/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
@@ -1436,19 +1444,13 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/linux/limits.h:
-
-/home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
-
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
 
 /usr/include/c++/11/ext/type_traits.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
@@ -1462,6 +1464,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/rp/build/_deps
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
+
 data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
@@ -1469,8 +1473,6 @@ data_locs.cpp:
 /usr/include/c++/11/clocale:
 
 /usr/include/c++/11/bits/ostream.tcc:
-
-/home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -1496,6 +1498,10 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
 
+/home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/clipp/clipp.h:
+
 /usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/cstdint:
@@ -1518,13 +1524,9 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/home/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
-
 /usr/include/c++/11/streambuf:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami.c:
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
@@ -1550,13 +1552,13 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/std_function.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
-
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/11/bits/vector.tcc:
+
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -1567,6 +1569,8 @@ data_locs.cpp:
 /usr/include/c++/11/debug/assertions.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
@@ -1600,15 +1604,11 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
-
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/clipp/clipp.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
@@ -1626,13 +1626,13 @@ data_locs.cpp:
 
 /usr/include/ctype.h:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/elf/elf.h:
+
 /usr/include/c++/11/bits/stream_iterator.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/home/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -1647,8 +1647,6 @@ data_locs.cpp:
 /usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/elf/elf_file.h:
 
 /usr/include/c++/11/bits/regex.tcc:
 
@@ -1666,17 +1664,23 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+/home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+
 /usr/include/c++/11/map:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
+
 /usr/include/c++/11/string:
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/no_otp.cpp:
 
 /usr/include/wchar.h:
 
@@ -1696,6 +1700,8 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
+/home/daltro/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
+
 /usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/c++/11/bits/shared_ptr.h:
@@ -1710,7 +1716,11 @@ data_locs.cpp:
 
 /usr/include/alloca.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.c:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/cli.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
@@ -1721,8 +1731,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/c++/11/cwctype:
-
-/home/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
 /usr/include/c++/11/cstdio:
 
@@ -1737,8 +1745,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/cli.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -1762,9 +1768,15 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.h:
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/linux/limits.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami++.h:
 
 /usr/include/c++/11/ostream:
 
@@ -1786,6 +1798,8 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/ioctls.h:
 
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
 /usr/include/c++/11/bits/ios_base.h:
@@ -1794,6 +1808,8 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
+
 /usr/include/c++/11/ios:
 
 /usr/include/c++/11/utility:
@@ -1801,8 +1817,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
 /usr/include/c++/11/stdexcept:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/bintool.h:
 
 /usr/include/string.h:
 
@@ -1820,13 +1834,13 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/enable_special_members.h:
-
-/home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -1844,11 +1858,9 @@ data_locs.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/main.cpp:
 
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
-
-/home/daltro/Codes/embedded/rp/build/_deps/picotool-src/main.cpp:
+/usr/include/c++/11/sstream:
 
 /usr/include/limits.h:
 
@@ -1861,8 +1873,6 @@ data_locs.cpp:
 /usr/include/c++/11/cassert:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
-
-/home/pico-sdk/lib/mbedtls/include/mbedtls/config.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
@@ -1890,6 +1900,8 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
+
 /usr/include/c++/11/bits/regex.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
@@ -1904,16 +1916,6 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 
-/home/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
-
-/home/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
-
-/home/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
-
-/usr/include/c++/11/sstream:
-
-/home/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
-
 /usr/include/c++/11/limits:
 
 /usr/include/math.h:
@@ -1921,8 +1923,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/c++/11/cstring:
-
-/home/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 

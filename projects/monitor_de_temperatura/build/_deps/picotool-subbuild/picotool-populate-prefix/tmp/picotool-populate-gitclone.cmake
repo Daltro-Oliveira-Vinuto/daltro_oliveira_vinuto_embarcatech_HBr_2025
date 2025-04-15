@@ -17,7 +17,7 @@ set(error_code 1)
 set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
-    COMMAND "/bin/git"  clone --no-checkout --progress --config "advice.detachedHead=false" "https://github.com/raspberrypi/picotool.git" "picotool-src"
+    COMMAND "/bin/git"  clone --no-checkout --config "advice.detachedHead=false" "https://github.com/raspberrypi/picotool.git" "picotool-src"
     WORKING_DIRECTORY "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps"
     RESULT_VARIABLE error_code
     )

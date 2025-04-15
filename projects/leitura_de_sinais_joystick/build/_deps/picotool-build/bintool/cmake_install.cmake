@@ -1,8 +1,8 @@
-# Install script for directory: /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool
+# Install script for directory: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/daltro/Codes/embedded/rp/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

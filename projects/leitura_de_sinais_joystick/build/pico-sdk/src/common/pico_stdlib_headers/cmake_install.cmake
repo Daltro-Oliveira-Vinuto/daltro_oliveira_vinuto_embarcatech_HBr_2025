@@ -1,4 +1,4 @@
-# Install script for directory: /home/pico-sdk/src/common/pico_stdlib_headers
+# Install script for directory: /home/daltro/pico-sdk/src/common/pico_stdlib_headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

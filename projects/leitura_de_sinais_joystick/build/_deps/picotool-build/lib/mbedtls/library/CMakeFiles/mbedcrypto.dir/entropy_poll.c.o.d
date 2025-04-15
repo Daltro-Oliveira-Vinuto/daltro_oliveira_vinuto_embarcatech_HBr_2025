@@ -1,8 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o: \
- /home/pico-sdk/lib/mbedtls/library/entropy_poll.c \
- /usr/include/stdc-predef.h /home/pico-sdk/lib/mbedtls/library/common.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/daltro/pico-sdk/lib/mbedtls/library/entropy_poll.c \
+ /usr/include/stdc-predef.h \
+ /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -34,13 +35,13 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/entropy_poll.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/timing.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/entropy_poll.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/timing.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \

@@ -1033,77 +1033,77 @@ hmac_drbg.c.s:
 	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.s
 .PHONY : hmac_drbg.c.s
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o
 
 # target to build an object file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i
 
 # target to preprocess a source file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s
 
 # target to generate assembly for a file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o
 
 # target to build an object file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i
 
 # target to preprocess a source file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s
 
 # target to generate assembly for a file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o
 
 # target to build an object file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i
 
 # target to preprocess a source file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
 
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s: home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s: home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s
 
 # target to generate assembly for a file
-home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
-.PHONY : home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
+home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s:
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
+.PHONY : home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
 
 md.o: md.c.o
 .PHONY : md.o
@@ -2711,15 +2711,15 @@ help:
 	@echo "... hmac_drbg.o"
 	@echo "... hmac_drbg.i"
 	@echo "... hmac_drbg.s"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i"
-	@echo "... home/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i"
+	@echo "... home/daltro/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s"
 	@echo "... md.o"
 	@echo "... md.i"
 	@echo "... md.s"

@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/daltro/Codes/embedded/rp/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

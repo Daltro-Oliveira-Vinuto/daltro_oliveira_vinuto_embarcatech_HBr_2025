@@ -25,6 +25,8 @@ pico_enable_stdio_usb(${SOURCE_CODE} 1)
 # Add pico_stdlib library which aggregates commonly used features
 target_link_libraries(${SOURCE_CODE} 
 						pico_stdlib
+						pico_time
+						hardware_timer
 						hardware_i2c)
 
 # Create map/bin/hex/uf2 file in addition to ELF

@@ -345,7 +345,7 @@ Mbed TLS_BINARY_DIR:STATIC=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech
 Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Mbed TLS_SOURCE_DIR:STATIC=/home/pico-sdk/lib/mbedtls
+Mbed TLS_SOURCE_DIR:STATIC=/home/daltro/pico-sdk/lib/mbedtls
 
 //No help, variable specified on the command line.
 PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
@@ -354,7 +354,7 @@ PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
 PICOTOOL_NO_LIBUSB:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=/home/pico-sdk
+PICO_SDK_PATH:FILEPATH=/home/daltro/pico-sdk
 
 //Allow unsafe builds. These builds ARE NOT SECURE.
 UNSAFE_BUILD:BOOL=OFF

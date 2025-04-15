@@ -1,7 +1,7 @@
 CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
  /usr/include/stdc-predef.h \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami++.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami++.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -152,7 +152,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/lib/whereami/whereami.c \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/lib/whereami/whereami.c \
  /usr/include/c++/11/stdlib.h /usr/include/string.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \

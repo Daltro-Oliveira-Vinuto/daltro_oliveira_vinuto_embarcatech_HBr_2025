@@ -1,4 +1,4 @@
-# Install script for directory: /home/daltro/Codes/embedded/rp/build/_deps/picotool-subbuild
+# Install script for directory: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/daltro/Codes/embedded/rp/build/_deps/picotool-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

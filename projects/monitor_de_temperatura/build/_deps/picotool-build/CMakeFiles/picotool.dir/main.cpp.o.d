@@ -245,21 +245,21 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/cstdarg \
  /usr/include/c++/11/iomanip /usr/include/c++/11/bits/quoted_string.h \
- /home/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
- /home/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
- /home/pico-sdk/src/host/pico_platform/include/pico/platform.h \
- /home/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+ /home/daltro/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
+ /home/daltro/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+ /home/daltro/pico-sdk/src/host/pico_platform/include/pico/platform.h \
+ /home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
- /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
- /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+ /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+ /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/elf/addresses.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/bintool/bintool.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/11/stdlib.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -268,19 +268,19 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/elf/elf_file.h \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
@@ -290,13 +290,13 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/elf/addresses.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/bintool/metadata.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
- /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
- /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
- /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
- /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
- /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
- /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
- /home/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+ /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+ /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+ /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+ /home/daltro/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/elf/elf.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/otp.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
@@ -327,7 +327,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h /usr/include/c++/11/version \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/errors/errors.h \
- /home/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
+ /home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
  /usr/include/x86_64-linux-gnu/asm/ioctls.h \

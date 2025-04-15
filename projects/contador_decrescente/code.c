@@ -4,8 +4,10 @@
 #include <string.h>
 #include <ctype.h>
 #include "pico/stdlib.h"
+#include "pico/time.h"
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
+#include "hardware/timer.h"
 #include "inc/ssd1306.h"
 
 
@@ -37,19 +39,28 @@ void set_color(bool red, bool green, bool blue) {
 }
 
 void gpio_irq_handler(uint gpio, uint32_t event_mask) {
-  if (gpio == BUTTON_A) {
-    set_color(0,0,0);
-    set_color(0, 0, 1);
-    time_now = 9;
-    total_pressed = 0;
-  }
-  else if (gpio == BUTTON_B){
-   set_color(0,0,0);
-   set_color(0,1,0);
-   if (time_now > 0) {
-    total_pressed+= 1;
+  static absolute_time_t last_pressed_time = 0;
+  uint32_t rebound_time = 200000;
+
+  if (absolute_time_diff_us(last_pressed_time, get_absolute_time()) > 
+      rebound_time) {
+      if (gpio == BUTTON_A) {
+        set_color(0,0,0);
+        set_color(0, 0, 1);
+        time_now = 9;
+        total_pressed = 0;
+      }
+      else if (gpio == BUTTON_B){
+       set_color(0,0,0);
+       set_color(0,1,0);
+       if (time_now > 0) {
+        total_pressed+= 1;
+       }
+     }
+
+     last_pressed_time = get_absolute_time();
+
    }
- }
 }
 
 bool repeating_timer_callback(struct repeating_timer *t) {

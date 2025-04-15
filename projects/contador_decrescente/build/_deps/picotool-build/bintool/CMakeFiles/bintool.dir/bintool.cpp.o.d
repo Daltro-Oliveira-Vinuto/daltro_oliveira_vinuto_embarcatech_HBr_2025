@@ -193,7 +193,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/cinttypes \
  /usr/include/inttypes.h \
- /home/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+ /home/daltro/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
@@ -209,9 +209,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/elf/addresses.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/11/stdlib.h /usr/include/assert.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -220,20 +220,20 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/bintool.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src/bintool/metadata.h \

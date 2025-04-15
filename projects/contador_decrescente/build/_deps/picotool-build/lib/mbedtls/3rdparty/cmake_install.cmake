@@ -1,4 +1,4 @@
-# Install script for directory: /home/pico-sdk/lib/mbedtls/3rdparty
+# Install script for directory: /home/daltro/pico-sdk/lib/mbedtls/3rdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

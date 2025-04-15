@@ -1,7 +1,7 @@
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
  /usr/include/stdc-predef.h \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -47,9 +47,9 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/assert.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -58,10 +58,10 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -71,21 +71,21 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
- /home/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+ /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h

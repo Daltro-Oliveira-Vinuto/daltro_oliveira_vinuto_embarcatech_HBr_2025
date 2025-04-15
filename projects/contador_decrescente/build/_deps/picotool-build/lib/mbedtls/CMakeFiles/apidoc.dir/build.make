@@ -64,7 +64,7 @@ CMAKE_BINARY_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_202
 include lib/mbedtls/CMakeFiles/apidoc.dir/compiler_depend.make
 
 lib/mbedtls/CMakeFiles/apidoc:
-	cd /home/pico-sdk/lib/mbedtls/doxygen && doxygen mbedtls.doxyfile
+	cd /home/daltro/pico-sdk/lib/mbedtls/doxygen && doxygen mbedtls.doxyfile
 
 apidoc: lib/mbedtls/CMakeFiles/apidoc
 apidoc: lib/mbedtls/CMakeFiles/apidoc.dir/build.make
@@ -79,6 +79,6 @@ lib/mbedtls/CMakeFiles/apidoc.dir/clean:
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/clean
 
 lib/mbedtls/CMakeFiles/apidoc.dir/depend:
-	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src /home/pico-sdk/lib/mbedtls /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build/lib/mbedtls /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-src /home/daltro/pico-sdk/lib/mbedtls /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build/lib/mbedtls /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/contador_decrescente/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/depend
 

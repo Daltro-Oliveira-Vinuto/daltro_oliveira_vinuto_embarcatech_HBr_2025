@@ -1,8 +1,8 @@
-# Install script for directory: /home/pico-sdk/lib/mbedtls
+# Install script for directory: /home/daltro/pico-sdk/lib/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/daltro/Codes/embedded/rp/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/daltro/Codes/embedded/rp/build/_deps/picotool-build/lib/mbedtls/include/cmake_install.cmake")
-  include("/home/daltro/Codes/embedded/rp/build/_deps/picotool-build/lib/mbedtls/3rdparty/cmake_install.cmake")
-  include("/home/daltro/Codes/embedded/rp/build/_deps/picotool-build/lib/mbedtls/library/cmake_install.cmake")
-  include("/home/daltro/Codes/embedded/rp/build/_deps/picotool-build/lib/mbedtls/pkgconfig/cmake_install.cmake")
+  include("/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build/lib/mbedtls/include/cmake_install.cmake")
+  include("/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build/lib/mbedtls/3rdparty/cmake_install.cmake")
+  include("/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build/lib/mbedtls/library/cmake_install.cmake")
+  include("/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build/lib/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 

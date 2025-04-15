@@ -39,77 +39,77 @@ CMakeFiles/code.dir/code.c.o: ../code.c \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
   /usr/include/newlib/ctype.h \
-  /home/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
   ../inc/ssd1306.h \
   ../inc/ssd1306_i2c.h \
-  /home/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
+  /home/daltro/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -121,33 +121,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: 
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -159,25 +159,25 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /hom
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/include/newlib/inttypes.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
@@ -203,39 +203,39 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /hom
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -247,33 +247,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /hom
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -285,33 +285,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -323,33 +323,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /hom
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -361,33 +361,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /h
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -399,33 +399,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /hom
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -437,33 +437,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -475,33 +475,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /hom
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -513,33 +513,33 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -551,25 +551,25 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/include/newlib/inttypes.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
@@ -595,38 +595,38 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  /home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/pico-sdk/lib/tinyusb/src/class/video/video_device.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -638,27 +638,27 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: 
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/include/newlib/inttypes.h \
@@ -696,59 +696,59 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/pi
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/include/newlib/assert.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/pico-sdk/lib/tinyusb/src/device/usbd.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -760,25 +760,25 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/pico-sd
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/device/dcd.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/include/newlib/inttypes.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
@@ -804,46 +804,46 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/pico-sd
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/tusb.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  /home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/pico-sdk/lib/tinyusb/src/device/usbd_control.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -855,25 +855,25 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/device/dcd.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/include/newlib/inttypes.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
@@ -899,45 +899,45 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/tusb.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  /home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_private.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -949,28 +949,28 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dc
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/include/newlib/inttypes.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
@@ -996,45 +996,45 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dc
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/lib/tinyusb/src/device/dcd.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1046,23 +1046,23 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -1071,8 +1071,8 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp
   /usr/include/newlib/sys/lock.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
-  /home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/include/newlib/inttypes.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
@@ -1093,37 +1093,37 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
-CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/pico-sdk/lib/tinyusb/src/tusb.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/daltro/pico-sdk/lib/tinyusb/src/tusb.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1135,25 +1135,25 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/pico-sdk/lib/t
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/tusb.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/include/newlib/inttypes.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
@@ -1179,42 +1179,42 @@ CMakeFiles/code.dir/home/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/pico-sdk/lib/t
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  /home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_private.h
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/hardware_claim/claim.c.o: /home/pico-sdk/src/common/hardware_claim/claim.c \
-  /home/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/hardware_claim/claim.c.o: /home/daltro/pico-sdk/src/common/hardware_claim/claim.c \
+  /home/daltro/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1226,31 +1226,31 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/hardware_claim/claim.c.o: /home/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/pico-sdk/src/common/pico_sync/critical_section.c \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/daltro/pico-sdk/src/common/pico_sync/critical_section.c \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1262,35 +1262,35 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_sync/critical_section.c.o: /ho
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/pico-sdk/src/common/pico_sync/lock_core.c \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/daltro/pico-sdk/src/common/pico_sync/lock_core.c \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1302,36 +1302,36 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/pico
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_sync/mutex.c.o: /home/pico-sdk/src/common/pico_sync/mutex.c \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_sync/mutex.c.o: /home/daltro/pico-sdk/src/common/pico_sync/mutex.c \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1343,38 +1343,38 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_sync/mutex.c.o: /home/pico-sdk
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_sync/sem.c.o: /home/pico-sdk/src/common/pico_sync/sem.c \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_sync/sem.c.o: /home/daltro/pico-sdk/src/common/pico_sync/sem.c \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1386,31 +1386,31 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_sync/sem.c.o: /home/pico-sdk/s
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_time/time.c.o: /home/pico-sdk/src/common/pico_time/time.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_time/time.c.o: /home/daltro/pico-sdk/src/common/pico_time/time.c \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/_ansi.h \
@@ -1428,62 +1428,62 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_time/time.c.o: /home/pico-sdk/
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/pico-sdk/src/common/pico_time/timeout_helper.c \
-  /home/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1495,32 +1495,32 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_util/datetime.c.o: /home/pico-sdk/src/common/pico_util/datetime.c \
-  /home/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_util/datetime.c.o: /home/daltro/pico-sdk/src/common/pico_util/datetime.c \
+  /home/daltro/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1532,21 +1532,21 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_util/datetime.c.o: /home/pico-
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /usr/include/newlib/time.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -1573,7 +1573,7 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_util/datetime.c.o: /home/pico-
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   /usr/include/newlib/sys/stdio.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_util/pheap.c.o: /home/pico-sdk/src/common/pico_util/pheap.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_util/pheap.c.o: /home/daltro/pico-sdk/src/common/pico_util/pheap.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1606,29 +1606,29 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_util/pheap.c.o: /home/pico-sdk
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
-  /home/pico-sdk/src/common/pico_util/include/pico/util/pheap.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_util/include/pico/util/pheap.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/common/pico_util/queue.c.o: /home/pico-sdk/src/common/pico_util/queue.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/common/pico_util/queue.c.o: /home/daltro/pico-sdk/src/common/pico_util/queue.c \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/_ansi.h \
@@ -1650,41 +1650,41 @@ CMakeFiles/code.dir/home/pico-sdk/src/common/pico_util/queue.c.o: /home/pico-sdk
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/pico-sdk/src/rp2040/pico_platform/platform.c \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1696,29 +1696,29 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/p
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/pico-sdk/src/rp2_common/hardware_adc/adc.c \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1730,48 +1730,48 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
-  /home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1783,28 +1783,28 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/pico-sdk/src/rp2_common/hardware_clocks/clocks.c \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1816,48 +1816,48 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /ho
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/pico-sdk/src/rp2_common/hardware_flash/flash.c \
-  /home/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1869,24 +1869,24 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -1896,21 +1896,21 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h \
-  /home/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
-  /home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1922,43 +1922,43 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/p
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
-  /home/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -1970,43 +1970,43 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/pico-sdk/src/rp2_common/hardware_irq/irq.c \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2018,45 +2018,45 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/daltro/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/pico-sdk/src/rp2_common/hardware_pll/pll.c \
-  /home/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2068,36 +2068,36 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/pico-sdk/src/rp2_common/hardware_sync/sync.c \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2109,30 +2109,30 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/p
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2144,29 +2144,29 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_sp
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/pico-sdk/src/rp2_common/hardware_ticks/ticks.c \
-  /home/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2178,31 +2178,31 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/pico-sdk/src/rp2_common/hardware_timer/timer.c \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2214,40 +2214,40 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/pico-sdk/src/rp2_common/hardware_uart/uart.c \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2259,40 +2259,40 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/p
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/pico-sdk/src/rp2_common/hardware_vreg/vreg.c \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2304,27 +2304,27 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/p
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -2354,49 +2354,49 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h \
-  /home/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c \
-  /home/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2408,31 +2408,31 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xip.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xip.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/pico-sdk/src/rp2_common/hardware_xosc/xosc.c \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2444,36 +2444,36 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/p
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
-  /home/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/pico-sdk/src/rp2_common/pico_atomic/atomic.c \
-  /home/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2484,40 +2484,40 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/p
   /usr/include/newlib/sys/features.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2529,23 +2529,23 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -2555,19 +2555,19 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /home/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /home/daltro/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2579,27 +2579,27 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: 
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -2638,38 +2638,38 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_clib_interface/newlib_inte
   /usr/include/newlib/sys/times.h \
   /usr/include/newlib/unistd.h \
   /usr/include/newlib/sys/unistd.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp \
   /usr/include/newlib/c++/10.3.1/cstdlib \
   /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
   /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
@@ -2693,29 +2693,29 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
   /usr/include/newlib/c++/10.3.1/bits/std_abs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/c++/10.3.1/cassert \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c \
   /usr/include/newlib/string.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -2734,35 +2734,35 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/pico-sdk/src/rp2_common/pico_double/double_math.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c \
   /usr/include/newlib/math.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -2778,88 +2778,33 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /h
   /usr/include/newlib/sys/lock.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/_ansi.h \
-  /home/pico-sdk/src/rp2_common/pico_double/include/pico/double.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_double/include/pico/double.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
-  /usr/include/newlib/assert.h \
-  /usr/include/newlib/_ansi.h \
-  /usr/include/newlib/newlib.h \
-  /usr/include/newlib/_newlib_version.h \
-  /usr/include/newlib/sys/config.h \
-  /usr/include/newlib/machine/ieeefp.h \
-  /usr/include/newlib/sys/features.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /usr/include/newlib/sys/cdefs.h \
-  /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
-  /home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h
-
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/pico-sdk/src/rp2_common/pico_flash/flash.c \
-  /home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -2871,31 +2816,86 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/pic
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c \
   /usr/include/newlib/string.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -2914,36 +2914,36 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp204
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/pico-sdk/src/rp2_common/pico_float/float_math.c \
-  /home/pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
   /usr/include/newlib/math.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -2960,29 +2960,29 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /hom
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/_ansi.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/pico-sdk/src/rp2_common/pico_malloc/malloc.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/_ansi.h \
@@ -3000,29 +3000,29 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/p
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/pico-sdk/src/rp2_common/pico_platform_panic/panic.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -3054,29 +3054,29 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: 
   /usr/include/newlib/sys/stdio.h \
   /usr/include/newlib/unistd.h \
   /usr/include/newlib/sys/unistd.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/pico-sdk/src/rp2_common/pico_printf/printf.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/include/newlib/stdio.h \
@@ -3108,32 +3108,32 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/p
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/include/newlib/assert.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/pico-sdk/src/rp2_common/pico_runtime/runtime.c \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -3145,28 +3145,28 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -3178,41 +3178,41 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
-  /home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -3224,43 +3224,50 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
-  /home/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
-  /home/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  /home/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /home/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
-  /home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
+  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -3272,34 +3279,34 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -3310,24 +3317,24 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_standard_binary_info/stand
   /usr/include/newlib/sys/features.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/pico-sdk/src/rp2_common/pico_stdio/stdio.c \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c \
   /usr/include/newlib/string.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -3361,44 +3368,44 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/pic
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/include/newlib/inttypes.h \
@@ -3436,73 +3443,73 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/include/newlib/assert.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  /home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  /home/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /home/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_private.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /home/daltro/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/include/newlib/inttypes.h \
@@ -3540,74 +3547,74 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/include/newlib/assert.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  /home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_private.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
-  /home/pico-sdk/lib/tinyusb/src/tusb.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/include/newlib/inttypes.h \
@@ -3645,65 +3652,65 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descri
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  /home/pico-sdk/lib/tinyusb/src/tusb_option.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/include/newlib/assert.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/osal/osal.h \
-  /home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  /home/pico-sdk/lib/tinyusb/src/device/usbd.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  /home/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  /home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  /home/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /home/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /home/daltro/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c \
-  /home/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c \
+  /home/daltro/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -3715,60 +3722,60 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/p
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h
 
-CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c \
-  /home/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+CMakeFiles/code.dir/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
@@ -3780,24 +3787,24 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/machine/_default_types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/_ansi.h \
@@ -3807,10 +3814,10 @@ CMakeFiles/code.dir/home/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
-  /home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /home/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+  /home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
 CMakeFiles/code.dir/inc/ssd1306_i2c.c.o: ../inc/ssd1306_i2c.c \
   /usr/include/newlib/stdio.h \
@@ -3850,620 +3857,620 @@ CMakeFiles/code.dir/inc/ssd1306_i2c.c.o: ../inc/ssd1306_i2c.c \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
   /usr/include/newlib/ctype.h \
-  /home/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/daltro/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   generated/pico_base/pico/version.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
-  /home/pico-sdk/src/boards/include/boards/pico_w.h \
-  /home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /home/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
-  /home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
-  /home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/daltro/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
   ../inc/ssd1306_font.h \
   ../inc/ssd1306_i2c.h
 
 
-../inc/ssd1306_font.h:
-
 ../inc/ssd1306_i2c.c:
 
-/home/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
 
-/home/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
 
-/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
+/home/daltro/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
-/home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
-/home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
 
-/home/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
+/home/daltro/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h:
 
-/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
+/home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
 
-/home/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
 
-/home/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
+/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c:
 
-/home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+
+/usr/include/newlib/time.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
+
+/home/daltro/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+
+/home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_types.h:
 
 /usr/include/newlib/sys/_intsup.h:
 
-/home/pico-sdk/lib/tinyusb/src/device/usbd.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
-
-/home/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
-
-/usr/include/newlib/sys/lock.h:
-
-/home/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
-
-/home/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
-
-../inc/ssd1306.h:
-
-/home/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
-
-/home/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
-
-/home/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
-
-/usr/include/newlib/unistd.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
-
-/usr/include/newlib/_ansi.h:
-
-/home/pico-sdk/src/common/pico_util/pheap.c:
-
-/home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
-
 /usr/include/newlib/inttypes.h:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
 
-/home/pico-sdk/lib/tinyusb/src/common/tusb_private.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
 
-/usr/include/newlib/sys/stdio.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
 
-/home/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
+/usr/include/newlib/machine/time.h:
 
-/home/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
 
-/home/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+/home/daltro/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
 
-/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
 
-/usr/include/newlib/sys/_pthreadtypes.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
 
-/home/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
 
-/home/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
+/home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
 
-/home/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
 
-/home/pico-sdk/src/rp2_common/hardware_flash/flash.c:
+/home/daltro/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
 
-../inc/ssd1306_i2c.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
 
-/home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c:
 
-/home/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
-/usr/include/newlib/c++/10.3.1/stdlib.h:
+/home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
-/usr/include/newlib/assert.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
 
-/home/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+generated/pico_base/pico/version.h:
 
-/home/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
 
-/home/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
 
-/home/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
 
-/home/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
-/home/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
 
-/home/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
+/usr/include/newlib/sys/cdefs.h:
 
-/usr/include/newlib/machine/types.h:
+/home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
 
-../code.c:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
 
-/home/pico-sdk/src/rp2_common/hardware_pll/pll.c:
-
-/usr/include/newlib/sys/timespec.h:
-
-/home/pico-sdk/src/rp2_common/pico_flash/flash.c:
-
-/usr/include/newlib/sys/select.h:
-
-/home/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
-
-/usr/include/newlib/machine/_types.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
-/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
 
-/usr/include/newlib/machine/ieeefp.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
-/usr/include/newlib/sys/_types.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
 
-/home/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
+
+/home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+
+/usr/include/newlib/unistd.h:
+
+/home/daltro/pico-sdk/src/common/pico_util/datetime.c:
+
+/usr/include/newlib/machine/types.h:
+
+/usr/include/newlib/sys/types.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/tusb_option.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
+
+/usr/include/newlib/strings.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
+
+/usr/include/newlib/c++/10.3.1/cassert:
+
+/usr/include/newlib/sys/select.h:
+
+/home/daltro/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/usr/include/newlib/machine/_endian.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
 
-/home/pico-sdk/src/common/pico_time/time.c:
+/home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
 
-/home/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
 
-/home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/osal/osal.h:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
 
 /usr/include/newlib/sys/_timespec.h:
 
-/home/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
 
-/home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h:
+/usr/include/newlib/machine/_types.h:
 
-/home/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
 
-/home/pico-sdk/src/common/pico_base_headers/include/pico.h:
+/usr/include/newlib/sys/_stdint.h:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
+/home/daltro/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
 
-/home/pico-sdk/lib/tinyusb/src/tusb_option.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c:
 
-/home/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
 
-/usr/include/newlib/newlib.h:
+/home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
+
+/home/daltro/pico-sdk/src/common/pico_time/include/pico/time.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
 
 /usr/include/newlib/_newlib_version.h:
 
 /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
 
-/home/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
 
 /usr/include/newlib/sys/config.h:
 
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+/home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
 
-/home/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
-
-/usr/include/newlib/sys/_sigset.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
-
-/home/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
-
-/usr/include/newlib/sys/cdefs.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
-
-/home/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
-
-/usr/include/newlib/time.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
-
-/home/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
-
-/usr/include/newlib/c++/10.3.1/cassert:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
-
-/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
+/usr/include/newlib/sys/_types.h:
 
 /usr/include/newlib/sys/features.h:
 
-generated/pico_base/pico/version.h:
+/home/daltro/pico-sdk/src/common/pico_time/time.c:
 
-/home/pico-sdk/src/common/pico_time/include/pico/time.h:
+/home/daltro/pico-sdk/src/common/pico_sync/include/pico/sem.h:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
+/usr/include/newlib/sys/_sigset.h:
 
-/usr/include/newlib/sys/unistd.h:
+/usr/include/newlib/newlib.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+
+/usr/include/newlib/sys/_timeval.h:
+
+/usr/include/newlib/sys/string.h:
 
 /usr/include/newlib/sys/reent.h:
 
 /usr/include/newlib/alloca.h:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
+/usr/include/newlib/_ansi.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
+/home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
 
-/home/pico-sdk/lib/tinyusb/src/osal/osal.h:
+/home/daltro/pico-sdk/src/common/pico_base_headers/include/pico.h:
 
-/home/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
 
-/home/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h:
 
-/home/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c:
 
 /usr/include/newlib/sys/sched.h:
 
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
 
-/home/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
+../inc/ssd1306_i2c.h:
 
-/home/pico-sdk/src/rp2_common/pico_printf/printf.c:
+/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 
-/home/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
-
-/usr/include/newlib/sys/_locale.h:
-
-/home/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
-
-/home/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
-
-/home/pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
-
-/usr/include/newlib/machine/stdlib.h:
-
-/home/pico-sdk/src/rp2_common/hardware_uart/uart.c:
-
-/usr/include/newlib/stdio.h:
-
-/usr/include/newlib/ctype.h:
-
-/home/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
-
-/home/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
-
-/home/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
-
-/home/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
-
-/home/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
-
-/home/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
-
-/usr/include/newlib/machine/_time.h:
-
-/usr/include/newlib/stdlib.h:
-
-/home/pico-sdk/src/boards/include/boards/pico_w.h:
-
-/home/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
-
-/usr/include/newlib/sys/string.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
-
-/home/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
-
-/home/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
-
-/usr/include/newlib/sys/types.h:
-
-/home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
-
-/home/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
-
-/usr/include/newlib/strings.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
-
-/home/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
-
-/home/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
-
-/home/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
-
-/home/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
-
-/home/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
-
-/home/pico-sdk/lib/tinyusb/src/device/usbd.c:
-
-/home/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
-
-/home/pico-sdk/lib/tinyusb/src/tusb.h:
-
-/home/pico-sdk/src/rp2_common/hardware_timer/timer.c:
-
-/home/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
-
-/home/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
-
-/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
-
-/home/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h:
-
-/home/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
-
-/home/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
-
-/home/pico-sdk/lib/tinyusb/src/tusb.c:
-
-/home/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
-
-/home/pico-sdk/src/common/hardware_claim/claim.c:
-
-/usr/include/newlib/machine/endian.h:
-
-/home/pico-sdk/lib/tinyusb/src/device/dcd.h:
-
-/usr/include/newlib/c++/10.3.1/cstdlib:
-
-/home/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
-
-/home/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
-
-/home/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
-
-/home/pico-sdk/src/common/pico_sync/critical_section.c:
-
-/home/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
-
-/home/pico-sdk/src/common/pico_sync/lock_core.c:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
-
-/home/pico-sdk/src/common/pico_sync/mutex.c:
-
-/home/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
-
-/home/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
-
-/home/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
-
-/home/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
-
-/usr/include/newlib/machine/_endian.h:
-
-/home/pico-sdk/src/common/pico_sync/sem.c:
-
-/home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
-
-/home/pico-sdk/src/common/pico_time/timeout_helper.c:
-
-/home/pico-sdk/src/common/pico_base_headers/include/pico/assert.h:
-
-/home/pico-sdk/src/common/pico_util/datetime.c:
-
-/usr/include/newlib/machine/time.h:
-
-/usr/include/newlib/sys/time.h:
-
-/home/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
-
-/home/pico-sdk/src/common/pico_util/queue.c:
-
-/home/pico-sdk/src/rp2040/pico_platform/platform.c:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
-
-/home/pico-sdk/src/rp2_common/hardware_adc/adc.c:
-
-/home/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
-
-/home/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
-
-generated/pico_base/pico/config_autogen.h:
-
-/home/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
-
-/home/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
-
-/usr/include/newlib/math.h:
-
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
-
-/home/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
-
-/home/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
-
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h:
-
-/home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
-
-/home/pico-sdk/src/rp2_common/pico_double/double_math.c:
-
-/home/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
-
-/home/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
 
 /usr/include/newlib/sys/stat.h:
 
-/home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_private.h:
 
-/home/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
+/home/daltro/pico-sdk/src/boards/include/boards/pico_w.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
+/usr/include/newlib/sys/lock.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
-/home/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+../code.c:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c:
 
-/home/pico-sdk/src/rp2_common/hardware_irq/irq.c:
+/usr/include/newlib/sys/_locale.h:
 
-/home/pico-sdk/src/rp2_common/hardware_sync/sync.c:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
 
-/home/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
+/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
 
-/home/pico-sdk/lib/tinyusb/src/common/tusb_types.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
 
-/home/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
 
-/usr/include/newlib/sys/_stdint.h:
+/usr/include/newlib/stdio.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
 
-/home/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
 
-/home/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
+/usr/include/newlib/ctype.h:
 
-/home/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
+/usr/include/newlib/sys/stdio.h:
 
-/home/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
+/home/daltro/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xip.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
+/usr/include/newlib/string.h:
 
-/home/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
+/home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
 
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
 
-/home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
 
-/home/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
 
-/home/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
-/home/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
+/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
 
-/usr/include/newlib/sys/times.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
 
-/home/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
 
-/home/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
 
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
 
 /usr/include/newlib/machine/_default_types.h:
 
 /usr/include/newlib/c++/10.3.1/bits/std_abs.h:
 
-/home/pico-sdk/src/common/pico_sync/include/pico/sem.h:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 
-/usr/include/newlib/string.h:
+/usr/include/newlib/machine/_time.h:
 
-/home/pico-sdk/src/rp2_common/pico_float/float_math.c:
+/home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
-/home/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c:
+/home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
 
-/home/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
 
-/home/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
+/usr/include/newlib/stdlib.h:
 
-/home/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
+generated/pico_base/pico/config_autogen.h:
 
-/home/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
+/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
+/home/daltro/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
 
-/usr/include/newlib/sys/_timeval.h:
+/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
 
-/home/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
+/home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h:
+
+/usr/include/newlib/machine/ieeefp.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/device/dcd.h:
+
+/usr/include/newlib/sys/_pthreadtypes.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
+
+/usr/include/newlib/sys/times.h:
+
+/usr/include/newlib/machine/stdlib.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/tusb.h:
+
+/home/daltro/pico-sdk/src/common/pico_sync/lock_core.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
+
+/home/daltro/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c:
+
+../inc/ssd1306.h:
+
+/home/daltro/pico-sdk/src/common/hardware_claim/claim.c:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
+
+/home/daltro/pico-sdk/src/common/pico_sync/sem.c:
+
+/home/daltro/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
+
+/home/daltro/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
+
+/usr/include/newlib/sys/timespec.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+/home/daltro/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h:
+
+/usr/include/newlib/c++/10.3.1/stdlib.h:
+
+/usr/include/newlib/assert.h:
+
+/home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+
+/home/daltro/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
+
+/usr/include/newlib/sys/time.h:
+
+/home/daltro/pico-sdk/src/common/pico_util/pheap.c:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
+
+/home/daltro/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
+
+/home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
+
+/home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h:
+
+/home/daltro/pico-sdk/src/common/pico_util/queue.c:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
+
+/usr/include/newlib/math.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
+
+/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
+
+../inc/ssd1306_font.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xip.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h:
+
+/home/daltro/pico-sdk/src/common/pico_sync/mutex.c:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+
+/home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
+
+/usr/include/newlib/sys/unistd.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
+
+/home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
+
+/usr/include/newlib/machine/endian.h:
+
+/usr/include/newlib/c++/10.3.1/cstdlib:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
+
+/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:

@@ -237,7 +237,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /home/daltro/Codes/daltro_oliveira
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /home/daltro/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
   /usr/include/assert.h \
   /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/elf/elf_file.h \
   /usr/include/c++/11/iostream \
@@ -255,6 +255,8 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /home/daltro/Codes/daltro_oliveira
 /usr/include/c++/11/sstream:
 
 /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/monitor_de_temperatura/build/_deps/picotool-src/elf/elf.h:
+
+/home/daltro/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -397,8 +399,6 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /home/daltro/Codes/daltro_oliveira
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/std_abs.h:
-
-/home/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
 
 /usr/include/c++/11/bits/exception.h:
 

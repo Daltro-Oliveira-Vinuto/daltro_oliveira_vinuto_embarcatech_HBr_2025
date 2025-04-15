@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daltro/Codes/embedded/rp/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daltro/Codes/embedded/rp/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build
 
 # Utility rule file for apidoc.
 
@@ -64,7 +64,7 @@ CMAKE_BINARY_DIR = /home/daltro/Codes/embedded/rp/build/_deps/picotool-build
 include lib/mbedtls/CMakeFiles/apidoc.dir/compiler_depend.make
 
 lib/mbedtls/CMakeFiles/apidoc:
-	cd /home/pico-sdk/lib/mbedtls/doxygen && doxygen mbedtls.doxyfile
+	cd /home/daltro/pico-sdk/lib/mbedtls/doxygen && doxygen mbedtls.doxyfile
 
 apidoc: lib/mbedtls/CMakeFiles/apidoc
 apidoc: lib/mbedtls/CMakeFiles/apidoc.dir/build.make
@@ -75,10 +75,10 @@ lib/mbedtls/CMakeFiles/apidoc.dir/build: apidoc
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/build
 
 lib/mbedtls/CMakeFiles/apidoc.dir/clean:
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build/lib/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/apidoc.dir/cmake_clean.cmake
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build/lib/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/apidoc.dir/cmake_clean.cmake
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/clean
 
 lib/mbedtls/CMakeFiles/apidoc.dir/depend:
-	cd /home/daltro/Codes/embedded/rp/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/embedded/rp/build/_deps/picotool-src /home/pico-sdk/lib/mbedtls /home/daltro/Codes/embedded/rp/build/_deps/picotool-build /home/daltro/Codes/embedded/rp/build/_deps/picotool-build/lib/mbedtls /home/daltro/Codes/embedded/rp/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src /home/daltro/pico-sdk/lib/mbedtls /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build/lib/mbedtls /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/depend
 

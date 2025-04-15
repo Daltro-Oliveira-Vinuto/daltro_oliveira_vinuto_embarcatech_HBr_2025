@@ -1,5 +1,5 @@
 errors/CMakeFiles/errors.dir/errors.cpp.o: \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/errors/errors.cpp \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/errors/errors.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdarg \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -12,7 +12,7 @@ errors/CMakeFiles/errors.dir/errors.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /home/daltro/Codes/embedded/rp/build/_deps/picotool-src/errors/errors.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/leitura_de_sinais_joystick/build/_deps/picotool-src/errors/errors.h \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h \
  /usr/include/c++/11/bits/char_traits.h \

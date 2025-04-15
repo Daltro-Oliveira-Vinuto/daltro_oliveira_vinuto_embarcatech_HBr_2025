@@ -1,4 +1,4 @@
-# Install script for directory: /home/pico-sdk/src/common/pico_sync
+# Install script for directory: /home/daltro/pico-sdk/src/common/pico_sync
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
