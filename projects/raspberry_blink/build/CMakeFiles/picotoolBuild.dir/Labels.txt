@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/CMakeFiles/picotoolBuild
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/CMakeFiles/picotoolBuild.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/CMakeFiles/picotoolBuild-complete.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/raspberry_blink/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule
