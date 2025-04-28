@@ -1,0 +1,5 @@
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/_deps/picotool/picotool
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/_deps/picotool/picotoolTargets.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/_deps/picotool/picotoolTargets-release.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/_deps/picotool/picotoolConfig.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/_deps/picotool/picotoolConfigVersion.cmake
