@@ -1,0 +1,7 @@
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm/CMakeFiles/pioasm.dir
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm/CMakeFiles/edit_cache.dir
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm/CMakeFiles/list_install_components.dir
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm/CMakeFiles/install.dir
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm/CMakeFiles/install/local.dir
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm/CMakeFiles/install/strip.dir

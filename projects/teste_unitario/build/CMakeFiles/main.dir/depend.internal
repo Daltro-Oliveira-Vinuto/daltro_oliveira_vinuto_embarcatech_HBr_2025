@@ -18,11 +18,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -50,11 +45,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -85,13 +75,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aea
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
- /usr/include/string.h
- /usr/include/strings.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -129,13 +112,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
- /usr/include/string.h
- /usr/include/strings.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
@@ -156,11 +132,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_har
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
@@ -184,11 +155,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
@@ -208,11 +174,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_ro
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
@@ -236,11 +197,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_r
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
@@ -260,11 +216,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
@@ -284,11 +235,6 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int6
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
@@ -319,12 +265,5 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aea
  /home/daltro/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
  /home/daltro/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
  /home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
- /usr/include/assert.h
- /usr/include/features-time64.h
- /usr/include/features.h
- /usr/include/stdc-predef.h
- /usr/include/stdint.h
- /usr/include/string.h
- /usr/include/strings.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h

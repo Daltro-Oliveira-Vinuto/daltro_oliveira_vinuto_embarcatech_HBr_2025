@@ -33,4 +33,5 @@ sudo ln -fs $(pwd)/picotool /usr/local/bin/picotool
 # install putty for interact with the program using printf/scanf
 sudo apt install putty
 
-
+# install google test for TDD(test driven development)
+sudo apt-get install libgtest-dev

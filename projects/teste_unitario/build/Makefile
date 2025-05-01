@@ -130,6 +130,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named bs2_default
 
 # Build rule for target.
@@ -167,19 +180,6 @@ bs2_default_library: cmake_check_build_system
 bs2_default_library/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
 .PHONY : bs2_default_library/fast
-
-#=============================================================================
-# Target rules for targets named pioasmBuild
-
-# Build rule for target.
-pioasmBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pioasmBuild
-.PHONY : pioasmBuild
-
-# fast build rule for target.
-pioasmBuild/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build
-.PHONY : pioasmBuild/fast
 
 #=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
@@ -224,6 +224,7 @@ hal/temperature.o: hal/temperature.c.o
 # target to build an object file
 hal/temperature.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hal/temperature.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/hal/temperature.c.o
 .PHONY : hal/temperature.c.o
 
 hal/temperature.i: hal/temperature.c.i
@@ -232,6 +233,7 @@ hal/temperature.i: hal/temperature.c.i
 # target to preprocess a source file
 hal/temperature.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hal/temperature.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/hal/temperature.c.i
 .PHONY : hal/temperature.c.i
 
 hal/temperature.s: hal/temperature.c.s
@@ -240,7 +242,116 @@ hal/temperature.s: hal/temperature.c.s
 # target to generate assembly for a file
 hal/temperature.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hal/temperature.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/hal/temperature.c.s
 .PHONY : hal/temperature.c.s
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
@@ -248,6 +359,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/daltro/pic
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -256,6 +368,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/daltro/pic
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -264,6 +377,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/daltro/pic
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
@@ -272,6 +386,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: home/daltro/pico-sd
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -280,6 +395,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/daltro/pico-sd
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -288,6 +404,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/daltro/pico-sd
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
@@ -296,6 +413,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: home/daltro/pico-sd
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -304,6 +422,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/daltro/pico-sd
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -312,6 +431,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/daltro/pico-sd
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
@@ -320,6 +440,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home/daltro/pico
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -328,6 +449,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/daltro/pico
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -336,6 +458,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/daltro/pico
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
@@ -344,6 +467,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: home/daltro/pico-sd
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -352,6 +476,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/daltro/pico-sd
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -360,6 +485,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/daltro/pico-sd
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
@@ -368,6 +494,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: home/daltro/pico-
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -376,6 +503,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/daltro/pico-
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -384,6 +512,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/daltro/pico-
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
@@ -392,6 +521,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: home/daltro/pico-sd
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -400,6 +530,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/daltro/pico-sd
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -408,6 +539,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/daltro/pico-sd
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
@@ -416,6 +548,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: home/daltro/p
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -424,6 +557,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/daltro/p
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -432,6 +566,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/daltro/p
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
@@ -440,6 +575,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: home/daltro/pico-sd
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -448,6 +584,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/daltro/pico-sd
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -456,6 +593,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/daltro/pico-sd
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
@@ -464,6 +602,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: home/daltro/p
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -472,6 +611,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/daltro/p
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -480,6 +620,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/daltro/p
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
@@ -488,6 +629,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: home/daltro/p
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -496,6 +638,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/daltro/p
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -504,6 +647,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/daltro/p
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
@@ -512,6 +656,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.o: home/daltro/pic
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -520,6 +665,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/daltro/pic
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -528,6 +674,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/daltro/pic
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
@@ -536,6 +683,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: home/daltro/pico-sdk/li
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -544,6 +692,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/daltro/pico-sdk/li
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -552,6 +701,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/daltro/pico-sdk/li
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.o: home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.o
@@ -560,6 +710,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.o: home/daltro/pico-sdk/lib/tin
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.i: home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -568,6 +719,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.i: home/daltro/pico-sdk/lib/tin
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.s: home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -576,6 +728,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.s: home/daltro/pico-sdk/lib/tin
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.o: home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
@@ -584,6 +737,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.o: home/daltro/pico-sdk
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -592,6 +746,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/daltro/pico-sdk
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -600,6 +755,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/daltro/pico-sdk
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
@@ -608,6 +764,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: h
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -616,6 +773,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: h
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -624,6 +782,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: h
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
@@ -632,6 +791,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: h
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -640,6 +800,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: h
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -648,6 +809,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: h
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/tusb.o: home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.o
@@ -656,6 +818,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/tusb.o: home/daltro/pico-sdk/lib/tinyusb/sr
 # target to build an object file
 home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.o
 
 home/daltro/pico-sdk/lib/tinyusb/src/tusb.i: home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -664,6 +827,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/tusb.i: home/daltro/pico-sdk/lib/tinyusb/sr
 # target to preprocess a source file
 home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 home/daltro/pico-sdk/lib/tinyusb/src/tusb.s: home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -672,6 +836,7 @@ home/daltro/pico-sdk/lib/tinyusb/src/tusb.s: home/daltro/pico-sdk/lib/tinyusb/sr
 # target to generate assembly for a file
 home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 home/daltro/pico-sdk/src/common/hardware_claim/claim.o: home/daltro/pico-sdk/src/common/hardware_claim/claim.c.o
@@ -680,6 +845,7 @@ home/daltro/pico-sdk/src/common/hardware_claim/claim.o: home/daltro/pico-sdk/src
 # target to build an object file
 home/daltro/pico-sdk/src/common/hardware_claim/claim.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/hardware_claim/claim.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : home/daltro/pico-sdk/src/common/hardware_claim/claim.c.o
 
 home/daltro/pico-sdk/src/common/hardware_claim/claim.i: home/daltro/pico-sdk/src/common/hardware_claim/claim.c.i
@@ -688,6 +854,7 @@ home/daltro/pico-sdk/src/common/hardware_claim/claim.i: home/daltro/pico-sdk/src
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/hardware_claim/claim.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : home/daltro/pico-sdk/src/common/hardware_claim/claim.c.i
 
 home/daltro/pico-sdk/src/common/hardware_claim/claim.s: home/daltro/pico-sdk/src/common/hardware_claim/claim.c.s
@@ -696,6 +863,7 @@ home/daltro/pico-sdk/src/common/hardware_claim/claim.s: home/daltro/pico-sdk/src
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/hardware_claim/claim.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : home/daltro/pico-sdk/src/common/hardware_claim/claim.c.s
 
 home/daltro/pico-sdk/src/common/pico_sync/critical_section.o: home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.o
@@ -704,6 +872,7 @@ home/daltro/pico-sdk/src/common/pico_sync/critical_section.o: home/daltro/pico-s
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.o
 
 home/daltro/pico-sdk/src/common/pico_sync/critical_section.i: home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -712,6 +881,7 @@ home/daltro/pico-sdk/src/common/pico_sync/critical_section.i: home/daltro/pico-s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/daltro/pico-sdk/src/common/pico_sync/critical_section.s: home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -720,6 +890,7 @@ home/daltro/pico-sdk/src/common/pico_sync/critical_section.s: home/daltro/pico-s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/daltro/pico-sdk/src/common/pico_sync/lock_core.o: home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.o
@@ -728,6 +899,7 @@ home/daltro/pico-sdk/src/common/pico_sync/lock_core.o: home/daltro/pico-sdk/src/
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.o
 
 home/daltro/pico-sdk/src/common/pico_sync/lock_core.i: home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -736,6 +908,7 @@ home/daltro/pico-sdk/src/common/pico_sync/lock_core.i: home/daltro/pico-sdk/src/
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/daltro/pico-sdk/src/common/pico_sync/lock_core.s: home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -744,6 +917,7 @@ home/daltro/pico-sdk/src/common/pico_sync/lock_core.s: home/daltro/pico-sdk/src/
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/daltro/pico-sdk/src/common/pico_sync/mutex.o: home/daltro/pico-sdk/src/common/pico_sync/mutex.c.o
@@ -752,6 +926,7 @@ home/daltro/pico-sdk/src/common/pico_sync/mutex.o: home/daltro/pico-sdk/src/comm
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_sync/mutex.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/mutex.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/mutex.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/mutex.c.o
 
 home/daltro/pico-sdk/src/common/pico_sync/mutex.i: home/daltro/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -760,6 +935,7 @@ home/daltro/pico-sdk/src/common/pico_sync/mutex.i: home/daltro/pico-sdk/src/comm
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_sync/mutex.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/daltro/pico-sdk/src/common/pico_sync/mutex.s: home/daltro/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -768,6 +944,7 @@ home/daltro/pico-sdk/src/common/pico_sync/mutex.s: home/daltro/pico-sdk/src/comm
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_sync/mutex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/daltro/pico-sdk/src/common/pico_sync/sem.o: home/daltro/pico-sdk/src/common/pico_sync/sem.c.o
@@ -776,6 +953,7 @@ home/daltro/pico-sdk/src/common/pico_sync/sem.o: home/daltro/pico-sdk/src/common
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_sync/sem.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/sem.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/sem.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/sem.c.o
 
 home/daltro/pico-sdk/src/common/pico_sync/sem.i: home/daltro/pico-sdk/src/common/pico_sync/sem.c.i
@@ -784,6 +962,7 @@ home/daltro/pico-sdk/src/common/pico_sync/sem.i: home/daltro/pico-sdk/src/common
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_sync/sem.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/daltro/pico-sdk/src/common/pico_sync/sem.s: home/daltro/pico-sdk/src/common/pico_sync/sem.c.s
@@ -792,6 +971,7 @@ home/daltro/pico-sdk/src/common/pico_sync/sem.s: home/daltro/pico-sdk/src/common
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_sync/sem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/daltro/pico-sdk/src/common/pico_time/time.o: home/daltro/pico-sdk/src/common/pico_time/time.c.o
@@ -800,6 +980,7 @@ home/daltro/pico-sdk/src/common/pico_time/time.o: home/daltro/pico-sdk/src/commo
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_time/time.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_time/time.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_time/time.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_time/time.c.o
 
 home/daltro/pico-sdk/src/common/pico_time/time.i: home/daltro/pico-sdk/src/common/pico_time/time.c.i
@@ -808,6 +989,7 @@ home/daltro/pico-sdk/src/common/pico_time/time.i: home/daltro/pico-sdk/src/commo
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_time/time.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_time/time.c.i
 
 home/daltro/pico-sdk/src/common/pico_time/time.s: home/daltro/pico-sdk/src/common/pico_time/time.c.s
@@ -816,6 +998,7 @@ home/daltro/pico-sdk/src/common/pico_time/time.s: home/daltro/pico-sdk/src/commo
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_time/time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_time/time.c.s
 
 home/daltro/pico-sdk/src/common/pico_time/timeout_helper.o: home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.o
@@ -824,6 +1007,7 @@ home/daltro/pico-sdk/src/common/pico_time/timeout_helper.o: home/daltro/pico-sdk
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
 home/daltro/pico-sdk/src/common/pico_time/timeout_helper.i: home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -832,6 +1016,7 @@ home/daltro/pico-sdk/src/common/pico_time/timeout_helper.i: home/daltro/pico-sdk
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/daltro/pico-sdk/src/common/pico_time/timeout_helper.s: home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -840,6 +1025,7 @@ home/daltro/pico-sdk/src/common/pico_time/timeout_helper.s: home/daltro/pico-sdk
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/daltro/pico-sdk/src/common/pico_util/datetime.o: home/daltro/pico-sdk/src/common/pico_util/datetime.c.o
@@ -848,6 +1034,7 @@ home/daltro/pico-sdk/src/common/pico_util/datetime.o: home/daltro/pico-sdk/src/c
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_util/datetime.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/datetime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/datetime.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/datetime.c.o
 
 home/daltro/pico-sdk/src/common/pico_util/datetime.i: home/daltro/pico-sdk/src/common/pico_util/datetime.c.i
@@ -856,6 +1043,7 @@ home/daltro/pico-sdk/src/common/pico_util/datetime.i: home/daltro/pico-sdk/src/c
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_util/datetime.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/daltro/pico-sdk/src/common/pico_util/datetime.s: home/daltro/pico-sdk/src/common/pico_util/datetime.c.s
@@ -864,6 +1052,7 @@ home/daltro/pico-sdk/src/common/pico_util/datetime.s: home/daltro/pico-sdk/src/c
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_util/datetime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/daltro/pico-sdk/src/common/pico_util/pheap.o: home/daltro/pico-sdk/src/common/pico_util/pheap.c.o
@@ -872,6 +1061,7 @@ home/daltro/pico-sdk/src/common/pico_util/pheap.o: home/daltro/pico-sdk/src/comm
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_util/pheap.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/pheap.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/pheap.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/pheap.c.o
 
 home/daltro/pico-sdk/src/common/pico_util/pheap.i: home/daltro/pico-sdk/src/common/pico_util/pheap.c.i
@@ -880,6 +1070,7 @@ home/daltro/pico-sdk/src/common/pico_util/pheap.i: home/daltro/pico-sdk/src/comm
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_util/pheap.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/daltro/pico-sdk/src/common/pico_util/pheap.s: home/daltro/pico-sdk/src/common/pico_util/pheap.c.s
@@ -888,6 +1079,7 @@ home/daltro/pico-sdk/src/common/pico_util/pheap.s: home/daltro/pico-sdk/src/comm
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_util/pheap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/daltro/pico-sdk/src/common/pico_util/queue.o: home/daltro/pico-sdk/src/common/pico_util/queue.c.o
@@ -896,6 +1088,7 @@ home/daltro/pico-sdk/src/common/pico_util/queue.o: home/daltro/pico-sdk/src/comm
 # target to build an object file
 home/daltro/pico-sdk/src/common/pico_util/queue.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/queue.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/queue.c.o
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/queue.c.o
 
 home/daltro/pico-sdk/src/common/pico_util/queue.i: home/daltro/pico-sdk/src/common/pico_util/queue.c.i
@@ -904,6 +1097,7 @@ home/daltro/pico-sdk/src/common/pico_util/queue.i: home/daltro/pico-sdk/src/comm
 # target to preprocess a source file
 home/daltro/pico-sdk/src/common/pico_util/queue.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/queue.c.i
 
 home/daltro/pico-sdk/src/common/pico_util/queue.s: home/daltro/pico-sdk/src/common/pico_util/queue.c.s
@@ -912,6 +1106,7 @@ home/daltro/pico-sdk/src/common/pico_util/queue.s: home/daltro/pico-sdk/src/comm
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/daltro/pico-sdk/src/common/pico_util/queue.c.s
 
 home/daltro/pico-sdk/src/rp2040/pico_platform/platform.o: home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -920,6 +1115,7 @@ home/daltro/pico-sdk/src/rp2040/pico_platform/platform.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.o
 
 home/daltro/pico-sdk/src/rp2040/pico_platform/platform.i: home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.i
@@ -928,6 +1124,7 @@ home/daltro/pico-sdk/src/rp2040/pico_platform/platform.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
 home/daltro/pico-sdk/src/rp2040/pico_platform/platform.s: home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.s
@@ -936,6 +1133,7 @@ home/daltro/pico-sdk/src/rp2040/pico_platform/platform.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.o: home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
@@ -944,6 +1142,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.o: home/daltro/pico-sdk/src
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -952,6 +1151,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/daltro/pico-sdk/src
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -960,6 +1160,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/daltro/pico-sdk/src
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -968,6 +1169,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: home/daltro/
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -976,6 +1178,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/daltro/
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -984,6 +1187,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/daltro/
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
@@ -992,6 +1196,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: home/daltro/pico-s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -1000,6 +1205,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/daltro/pico-s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -1008,6 +1214,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/daltro/pico-s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider.o: home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
@@ -1016,7 +1223,62 @@ home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider.o: home/daltro/pico
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+
+home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.o: home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+
+home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.o: home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.o
@@ -1024,6 +1286,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/daltro/pico-sdk
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -1032,6 +1295,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/daltro/pico-sdk
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -1040,6 +1304,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/daltro/pico-sdk
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
@@ -1048,6 +1313,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -1056,6 +1322,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -1064,6 +1331,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
@@ -1072,6 +1340,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/daltro/pico-sdk/src
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -1080,6 +1349,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/daltro/pico-sdk/src
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -1088,6 +1358,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/daltro/pico-sdk/src
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -1096,7 +1367,35 @@ home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: home/daltr
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.o: home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.o
@@ -1104,6 +1403,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/daltro/pico-sdk/src
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -1112,6 +1412,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/daltro/pico-sdk/src
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -1120,6 +1421,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/daltro/pico-sdk/src
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
@@ -1128,6 +1430,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1136,6 +1439,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1144,6 +1448,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
@@ -1152,6 +1457,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: ho
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -1160,6 +1466,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: ho
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -1168,6 +1475,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: ho
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
@@ -1176,6 +1484,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: home/daltro/pico-sdk
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
@@ -1184,6 +1493,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/daltro/pico-sdk
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
@@ -1192,6 +1502,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/daltro/pico-sdk
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.o: home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
@@ -1200,6 +1511,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.o: home/daltro/pico-sdk
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1208,6 +1520,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/daltro/pico-sdk
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1216,6 +1529,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/daltro/pico-sdk
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.o: home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
@@ -1224,6 +1538,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1232,6 +1547,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1240,6 +1556,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
@@ -1248,6 +1565,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1256,6 +1574,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1264,6 +1583,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
@@ -1272,6 +1592,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: home/daltro/pi
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1280,6 +1601,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/daltro/pi
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1288,6 +1610,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/daltro/pi
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
@@ -1296,6 +1619,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: home/daltro/
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
@@ -1304,6 +1628,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: home/daltro/
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
@@ -1312,6 +1637,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: home/daltro/
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
@@ -1320,6 +1646,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
 home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1328,6 +1655,7 @@ home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1336,7 +1664,62 @@ home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.o
@@ -1344,6 +1727,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
@@ -1352,6 +1736,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
@@ -1360,6 +1745,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -1368,6 +1754,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: home/daltro/pi
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
@@ -1376,6 +1763,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: home/daltro/pico-sdk
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1384,6 +1772,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/daltro/pico-sdk
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1392,6 +1781,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/daltro/pico-sdk
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -1400,6 +1790,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: home/daltro/pic
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -1408,6 +1799,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/daltro/pic
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -1416,6 +1808,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/daltro/pic
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
@@ -1424,6 +1817,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: home
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -1432,6 +1826,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -1440,6 +1835,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.o: home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -1448,6 +1844,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.o: home/daltro/pico-sdk/src/r
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
@@ -1456,6 +1853,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: home/daltro/p
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -1464,6 +1862,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/daltro/p
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -1472,7 +1871,224 @@ home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/daltro/p
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o
@@ -1480,6 +2096,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: home/daltro
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
@@ -1488,6 +2105,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: home/dalt
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
@@ -1496,6 +2114,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: home/d
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
@@ -1504,6 +2123,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/d
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
@@ -1512,6 +2132,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/d
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.o: home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.o
@@ -1520,6 +2141,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.o: home/daltro/pico-
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.i: home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1528,6 +2150,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.i: home/daltro/pico-
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.s: home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1536,6 +2159,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.s: home/daltro/pico-
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
@@ -1544,6 +2168,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: hom
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
@@ -1552,6 +2177,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp204
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1560,6 +2186,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp204
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1568,6 +2195,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp204
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.o: home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.o
@@ -1576,6 +2204,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.o: home/daltro/pico-sdk/src
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.i: home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.i
@@ -1584,6 +2213,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.i: home/daltro/pico-sdk/src
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.s: home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.s
@@ -1592,6 +2222,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.s: home/daltro/pico-sdk/src
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
@@ -1600,6 +2231,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: home/daltro
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
@@ -1608,6 +2240,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: home/dal
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
@@ -1616,6 +2249,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/dal
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
@@ -1624,6 +2258,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/dal
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.o: home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.o
@@ -1632,6 +2267,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.o: home/daltro/pico-sd
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.i: home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1640,6 +2276,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.i: home/daltro/pico-sd
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.s: home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1648,6 +2285,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.s: home/daltro/pico-sd
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
@@ -1656,6 +2294,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: home/
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
@@ -1664,6 +2303,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: home/
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.o: home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
@@ -1672,6 +2312,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
@@ -1680,6 +2321,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
@@ -1688,6 +2330,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
@@ -1696,6 +2339,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: home/daltro/pi
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -1704,6 +2348,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: home/daltro/pic
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1712,6 +2357,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/daltro/pic
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1720,6 +2366,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/daltro/pic
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.o: home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.o
@@ -1728,6 +2375,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.i: home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1736,6 +2384,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.s: home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1744,6 +2393,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
@@ -1752,6 +2402,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/daltro/pico-sdk
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1760,6 +2411,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/daltro/pico-sdk
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1768,6 +2420,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/daltro/pico-sdk
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
@@ -1776,6 +2429,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: home/daltr
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -1784,6 +2438,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/daltr
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -1792,6 +2447,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/daltr
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
@@ -1800,6 +2456,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: hom
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -1808,6 +2465,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: hom
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -1816,6 +2474,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: hom
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
@@ -1824,6 +2483,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -1832,6 +2492,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -1840,6 +2501,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -1848,6 +2510,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_in
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -1856,6 +2519,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_in
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -1864,6 +2528,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_in
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.o: home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
@@ -1872,6 +2537,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.o: home/daltro/pico-sdk/src
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1880,6 +2546,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/daltro/pico-sdk/src
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1888,6 +2555,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/daltro/pico-sdk/src
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
@@ -1896,6 +2564,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: home/daltr
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -1904,6 +2573,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/daltr
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -1912,6 +2582,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/daltr
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
@@ -1920,6 +2591,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: home/daltro/pico
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -1928,6 +2600,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/daltro/pico
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -1936,6 +2609,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/daltro/pico
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
@@ -1944,6 +2618,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: home
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -1952,6 +2627,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -1960,6 +2636,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -1968,6 +2645,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/daltro/pico-sdk/s
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1976,6 +2654,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/daltro/pico-sdk/s
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1984,6 +2663,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/daltro/pico-sdk/s
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
@@ -1992,6 +2672,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: home/daltro/pico
 # target to build an object file
 home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 
 home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -2000,6 +2681,7 @@ home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/daltro/pico
 # target to preprocess a source file
 home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -2008,7 +2690,56 @@ home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/daltro/pico
 # target to generate assembly for a file
 home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+include/Unity/unity.o: include/Unity/unity.c.o
+.PHONY : include/Unity/unity.o
+
+# target to build an object file
+include/Unity/unity.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/include/Unity/unity.c.o
+.PHONY : include/Unity/unity.c.o
+
+include/Unity/unity.i: include/Unity/unity.c.i
+.PHONY : include/Unity/unity.i
+
+# target to preprocess a source file
+include/Unity/unity.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/include/Unity/unity.c.i
+.PHONY : include/Unity/unity.c.i
+
+include/Unity/unity.s: include/Unity/unity.c.s
+.PHONY : include/Unity/unity.s
+
+# target to generate assembly for a file
+include/Unity/unity.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/include/Unity/unity.c.s
+.PHONY : include/Unity/unity.c.s
+
+test/test.o: test/test.c.o
+.PHONY : test/test.o
+
+# target to build an object file
+test/test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test/test.c.o
+.PHONY : test/test.c.o
+
+test/test.i: test/test.c.i
+.PHONY : test/test.i
+
+# target to preprocess a source file
+test/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test/test.c.i
+.PHONY : test/test.c.i
+
+test/test.s: test/test.c.s
+.PHONY : test/test.s
+
+# target to generate assembly for a file
+test/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test/test.c.s
+.PHONY : test/test.c.s
 
 # Help Target
 help:
@@ -2020,16 +2751,28 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
-	@echo "... pioasmBuild"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... main"
+	@echo "... test"
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
 	@echo "... hal/temperature.o"
 	@echo "... hal/temperature.i"
 	@echo "... hal/temperature.s"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
 	@echo "... home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2127,6 +2870,12 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.s"
@@ -2137,6 +2886,9 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.s"
@@ -2167,6 +2919,12 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
@@ -2184,6 +2942,30 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o"
@@ -2251,6 +3033,12 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... include/Unity/unity.o"
+	@echo "... include/Unity/unity.i"
+	@echo "... include/Unity/unity.s"
+	@echo "... test/test.o"
+	@echo "... test/test.i"
+	@echo "... test/test.s"
 .PHONY : help
 
 

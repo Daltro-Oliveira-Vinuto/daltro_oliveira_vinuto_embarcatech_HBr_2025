@@ -1206,10 +1206,248 @@ CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_devi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -c /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c > CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -c /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c > CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -c /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: /home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -c /home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -1304,6 +1542,23 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.o" \
 "CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
 "CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o" \
+"CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o" \
 "CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
 
 # External object files for target main
@@ -1391,12 +1646,29 @@ main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/class/video/v
 main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/tusb.c.o
 main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
 main.elf: CMakeFiles/main.dir/home/daltro/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 main.elf: CMakeFiles/main.dir/build.make
 main.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 main.elf: /home/daltro/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 main.elf: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking CXX executable main.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking CXX executable main.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/main.elf > main.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/main.elf >> main.dis

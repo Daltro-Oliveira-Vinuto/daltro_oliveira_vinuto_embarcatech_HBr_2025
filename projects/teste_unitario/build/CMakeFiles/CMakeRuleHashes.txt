@@ -4,10 +4,8 @@ b1519286e03c0a5ca4be579f5315e972 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_
 71182e4e53586ed9dd8519382e0e1b1a pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 217caf78a8673e9d7e97653264bc2bf6 pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
 dc7efe3b5ed83f82a1e9f25679d3a6ce pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
-dc7efe3b5ed83f82a1e9f25679d3a6ce pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild
 18dc51c80d07ba4cd15c4bad28adaf88 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete
 94a201a71656fd99e7c53bc21926e011 pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
-17fa866cfad8d65f3e944cda69575da1 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build
 0f3459ccd5bca460ecf91df94294de25 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure
 97134e590fde2d5f4ec125ca0a766027 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download
 532b02510221a58cab1d12d916edd2cc pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install

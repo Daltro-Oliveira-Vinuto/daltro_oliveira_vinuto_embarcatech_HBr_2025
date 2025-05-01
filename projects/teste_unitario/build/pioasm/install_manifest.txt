@@ -1,0 +1,5 @@
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm-install/pioasm/pioasm
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm-install/pioasm/pioasmTargets.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm-install/pioasm/pioasmConfig.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/teste_unitario/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
