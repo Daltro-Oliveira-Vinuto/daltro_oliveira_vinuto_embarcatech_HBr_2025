@@ -1,0 +1,7 @@
+/home/daltro/Codes/tarefa-iot-security-lab-system_software_team/build/pioasm/CMakeFiles/pioasm.dir
+/home/daltro/Codes/tarefa-iot-security-lab-system_software_team/build/pioasm/CMakeFiles/edit_cache.dir
+/home/daltro/Codes/tarefa-iot-security-lab-system_software_team/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/daltro/Codes/tarefa-iot-security-lab-system_software_team/build/pioasm/CMakeFiles/list_install_components.dir
+/home/daltro/Codes/tarefa-iot-security-lab-system_software_team/build/pioasm/CMakeFiles/install.dir
+/home/daltro/Codes/tarefa-iot-security-lab-system_software_team/build/pioasm/CMakeFiles/install/local.dir
+/home/daltro/Codes/tarefa-iot-security-lab-system_software_team/build/pioasm/CMakeFiles/install/strip.dir
