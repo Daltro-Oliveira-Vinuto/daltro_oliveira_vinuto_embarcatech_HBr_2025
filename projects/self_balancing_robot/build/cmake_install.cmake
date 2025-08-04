@@ -1,4 +1,4 @@
-# Install script for directory: /home/daltro/Codes/embedded/self_balancing_robot
+# Install script for directory: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/cmake_install.cmake")
+  include("/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/daltro/Codes/embedded/self_balancing_robot/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

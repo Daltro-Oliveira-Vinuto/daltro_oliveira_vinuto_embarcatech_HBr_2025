@@ -1,13 +1,13 @@
 # Target labels
  pioasmBuild
 # Source files and their labels
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule

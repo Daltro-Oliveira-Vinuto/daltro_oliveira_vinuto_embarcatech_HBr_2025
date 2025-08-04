@@ -1,8 +1,8 @@
-# Install script for directory: /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/errors
+# Install script for directory: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/errors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/daltro/Codes/embedded/self_balancing_robot/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

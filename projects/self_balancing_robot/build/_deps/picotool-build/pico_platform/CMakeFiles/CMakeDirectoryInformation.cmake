@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/daltro/pico-sdk/src/host/pico_platform")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

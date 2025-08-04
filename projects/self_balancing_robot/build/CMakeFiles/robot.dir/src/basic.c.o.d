@@ -1,6 +1,6 @@
 CMakeFiles/robot.dir/src/basic.c.o: \
- /home/daltro/Codes/embedded/self_balancing_robot/src/basic.c \
- /home/daltro/Codes/embedded/self_balancing_robot/include/basic.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/src/basic.c \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/include/basic.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -26,9 +26,9 @@ CMakeFiles/robot.dir/src/basic.c.o: \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/daltro/Codes/embedded/self_balancing_robot/build/generated/pico_base/pico/version.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/generated/pico_base/pico/version.h \
  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/daltro/Codes/embedded/self_balancing_robot/build/generated/pico_base/pico/config_autogen.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/generated/pico_base/pico/config_autogen.h \
  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \

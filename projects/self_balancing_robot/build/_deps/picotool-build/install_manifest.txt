@@ -1,7 +1,7 @@
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool/picotool
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool/picotoolTargets.cmake
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool/picotoolTargets-release.cmake
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool/picotoolConfig.cmake
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool/picotoolConfigVersion.cmake
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool/enc_bootloader.elf
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool/enc_bootloader_mbedtls.elf
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool/picotool
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool/picotoolTargets.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool/picotoolTargets-release.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool/picotoolConfig.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool/picotoolConfigVersion.cmake
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool/enc_bootloader.elf
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool/enc_bootloader_mbedtls.elf

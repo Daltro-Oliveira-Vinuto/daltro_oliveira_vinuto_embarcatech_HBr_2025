@@ -33,9 +33,9 @@ CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_us
  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /usr/include/newlib/assert.h \
- /home/daltro/Codes/embedded/self_balancing_robot/build/generated/pico_base/pico/version.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/generated/pico_base/pico/version.h \
  /home/daltro/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/daltro/Codes/embedded/self_balancing_robot/build/generated/pico_base/pico/config_autogen.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/generated/pico_base/pico/config_autogen.h \
  /home/daltro/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/daltro/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/daltro/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \

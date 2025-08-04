@@ -4,7 +4,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_d
  /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_aead.h \
  /home/daltro/pico-sdk/lib/mbedtls/include/psa/crypto.h \
  /home/daltro/pico-sdk/lib/mbedtls/include/psa/crypto_platform.h \
- /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daltro/Codes/embedded/self_balancing_robot
+CMAKE_SOURCE_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daltro/Codes/embedded/self_balancing_robot/build
+CMAKE_BINARY_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include CMakeFiles/picotoolForceReconfigure.dir/compiler_depend.make
 include CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 CMakeFiles/picotoolForceReconfigure:
-	/usr/bin/cmake -E touch_nocreate /home/daltro/Codes/embedded/self_balancing_robot/CMakeLists.txt
+	/usr/bin/cmake -E touch_nocreate /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/CMakeLists.txt
 
 picotoolForceReconfigure: CMakeFiles/picotoolForceReconfigure
 picotoolForceReconfigure: CMakeFiles/picotoolForceReconfigure.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/picotoolForceReconfigure.dir/clean:
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/clean
 
 CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd /home/daltro/Codes/embedded/self_balancing_robot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/embedded/self_balancing_robot /home/daltro/Codes/embedded/self_balancing_robot /home/daltro/Codes/embedded/self_balancing_robot/build /home/daltro/Codes/embedded/self_balancing_robot/build /home/daltro/Codes/embedded/self_balancing_robot/build/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/depend
 

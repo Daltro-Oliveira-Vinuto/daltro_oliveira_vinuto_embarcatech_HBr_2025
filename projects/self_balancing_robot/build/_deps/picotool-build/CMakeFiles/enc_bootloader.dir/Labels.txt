@@ -1,13 +1,13 @@
 # Target labels
  enc_bootloader
 # Source files and their labels
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch.rule
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch.rule
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update.rule

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\"
 
-C_INCLUDES = -I/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include -isystem /home/daltro/pico-sdk/lib/mbedtls/include
+C_INCLUDES = -I/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include -isystem /home/daltro/pico-sdk/lib/mbedtls/include
 
 C_FLAGS = -O3 -DNDEBUG
 

@@ -1,5 +1,5 @@
 CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: \
- /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.cpp \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -177,11 +177,11 @@ CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.h \
- /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader_elf.h \
- /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader_mbedtls_elf.h \
- /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/data_locs.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader_elf.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader_mbedtls_elf.h \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/data_locs.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.h
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.h

@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(picotool-populate
                      "GIT_REPOSITORY" "https://github.com/raspberrypi/picotool.git" "GIT_TAG" "develop"
-                    SOURCE_DIR          "/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src"
-                    BINARY_DIR          "/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build"
+                    SOURCE_DIR          "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src"
+                    BINARY_DIR          "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

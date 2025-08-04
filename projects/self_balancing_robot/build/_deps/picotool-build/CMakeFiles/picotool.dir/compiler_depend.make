@@ -161,7 +161,7 @@ CMakeFiles/picotool.dir/data_locs.cpp.o: data_locs.cpp \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc
 
-CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.cpp \
+CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -379,19 +379,19 @@ CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/daltro/Codes/embedded/se
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.h \
   enc_bootloader_elf.h \
   enc_bootloader_mbedtls_elf.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/data_locs.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/data_locs.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.h
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.h \
   /usr/include/c++/11/string \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -570,7 +570,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedd
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -580,9 +580,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/daltro/Codes/embedd
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.c \
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -654,9 +654,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/daltro/Codes/embedded/s
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
 
-CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/main.cpp \
+CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/main.cpp \
   /usr/include/stdc-predef.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/cli.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/cli.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -884,7 +884,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/self_balancing_r
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/bits/sstream.tcc \
   /usr/include/c++/11/limits \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/clipp/clipp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/clipp/clipp.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -982,20 +982,20 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/self_balancing_r
   /home/daltro/pico-sdk/src/host/pico_platform/include/pico/platform.h \
   /home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
   /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
   /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf/addresses.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/bintool/bintool.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf/addresses.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/bintool/bintool.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /usr/include/c++/11/stdlib.h \
   /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1017,11 +1017,11 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/self_balancing_r
   /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
   /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
   /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf/elf_file.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf/elf.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf/addresses.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/bintool/metadata.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf/elf_file.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf/elf.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf/addresses.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/bintool/metadata.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
   /home/daltro/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
   /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
@@ -1029,9 +1029,9 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/self_balancing_r
   /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
   /home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
   /home/daltro/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf/elf.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/otp.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf/elf.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/otp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/forward_list \
   /usr/include/c++/11/bits/forward_list.h \
@@ -1052,7 +1052,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/self_balancing_r
   /usr/include/c++/11/bits/mask_array.h \
   /usr/include/c++/11/bits/indirect_array.h \
   /usr/include/c++/11/version \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/errors/errors.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/errors/errors.h \
   /home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
   /usr/include/x86_64-linux-gnu/bits/ioctls.h \
@@ -1064,7 +1064,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/daltro/Codes/embedded/self_balancing_r
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
   /usr/include/x86_64-linux-gnu/sys/ttydefaults.h
 
-CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/no_otp.cpp \
+CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/no_otp.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -1167,7 +1167,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/bits/erase_if.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/otp.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/otp.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/char_traits.h \
@@ -1244,7 +1244,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/refwrap.h \
@@ -1345,6 +1345,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
   /usr/include/c++/11/bits/sstream.tcc
 
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/no_otp.cpp:
+
 /usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
 
 /usr/include/asm-generic/ioctl.h:
@@ -1353,11 +1355,9 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/no_otp.cpp:
-
 /home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/errors/errors.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/errors/errors.h:
 
 /usr/include/c++/11/version:
 
@@ -1379,21 +1379,17 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 
 /usr/include/c++/11/bits/hashtable.h:
 
-/usr/include/c++/11/unordered_map:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/otp.h:
-
 /home/daltro/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
-
-/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
 /home/daltro/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/bintool/metadata.h:
+/usr/include/c++/11/unordered_map:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf/elf_file.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf/elf.h:
+
+/home/daltro/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf/elf_file.h:
 
 /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/version.h:
 
@@ -1404,6 +1400,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
 
 /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
+
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
 
 /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
 
@@ -1419,19 +1417,9 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/bintool/bintool.h:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf/addresses.h:
-
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /home/daltro/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
 
 /home/daltro/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
@@ -1442,6 +1430,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 /usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/c++/11/set:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
 
 /usr/include/c++/11/bits/random.h:
 
@@ -1462,6 +1452,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 /usr/include/c++/11/bits/regex_executor.h:
 
 /usr/include/c++/11/bits/regex_compiler.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
 
 /usr/include/c++/11/bits/regex_scanner.tcc:
 
@@ -1493,8 +1485,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 
 /usr/include/linux/close_range.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf/elf.h:
-
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
@@ -1516,6 +1506,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 /home/daltro/pico-sdk/src/host/pico_platform/include/pico/platform.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
@@ -1553,6 +1545,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 
 /usr/include/c++/11/bits/deque.tcc:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/bintool/bintool.h:
+
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -1575,6 +1569,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
+/usr/include/c++/11/ext/new_allocator.h:
+
 /home/daltro/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
@@ -1593,8 +1589,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 
 /usr/include/time.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
-
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/pthread.h:
@@ -1608,8 +1602,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 /usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/data_locs.h:
 
 /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
 
@@ -1713,10 +1705,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/daltro/Codes/embedded/self_balancing
 
 /usr/include/c++/11/bits/exception_defines.h:
 
-/usr/include/c++/11/bits/regex_executor.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
 data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
@@ -1753,10 +1741,6 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/stl_tree.h:
 
-/usr/include/c++/11/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/11/bits/postypes.h:
@@ -1787,7 +1771,15 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
+/usr/include/c++/11/cstdarg:
+
+/usr/include/c++/11/type_traits:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
 /usr/include/c++/11/cmath:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
 
 /usr/include/c++/11/bits/allocator.h:
 
@@ -1814,6 +1806,8 @@ data_locs.cpp:
 /usr/include/c++/11/debug/assertions.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.c:
 
 /home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
 
@@ -1860,6 +1854,8 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -1945,17 +1941,19 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/home/daltro/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
-/usr/include/c++/11/bits/shared_ptr.h:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/c++/11/bits/random.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/bintool/metadata.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/clipp/clipp.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
 
 /usr/include/c++/11/cwchar:
 
@@ -2009,9 +2007,17 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
+/usr/include/c++/11/cstdint:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.h:
+
 /usr/include/c++/11/bits/charconv.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.cpp:
 
 /usr/include/limits.h:
 
@@ -2033,8 +2039,6 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/c++/11/memory:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
-
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
@@ -2052,8 +2056,6 @@ enc_bootloader_mbedtls_elf.h:
 /usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/c++/11/exception:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.cpp:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
@@ -2077,10 +2079,6 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/c++/11/bits/ios_base.h:
 
-/usr/include/c++/11/ext/new_allocator.h:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami++.h:
-
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
@@ -2101,13 +2099,11 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
-/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/enable_special_members.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/otp.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
 
@@ -2123,6 +2119,8 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/c++/11/sstream:
 
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/elf/addresses.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /usr/include/uchar.h:
@@ -2131,9 +2129,13 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/get_enc_bootloader.h:
-
 enc_bootloader_elf.h:
+
+/usr/include/c++/11/bits/regex_executor.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/data_locs.h:
 
 /usr/include/c++/11/stdlib.h:
 
@@ -2143,19 +2145,27 @@ enc_bootloader_elf.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
-/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
+/home/daltro/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.h:
+/usr/include/c++/11/bits/streambuf_iterator.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/main.cpp:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.h:
 
-/usr/include/c++/11/cstdarg:
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/main.cpp:
 
-/usr/include/c++/11/type_traits:
+/usr/include/math.h:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/cli.h:
+/usr/include/c++/11/cstring:
+
+/home/daltro/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/cli.h:
 
 /usr/include/c++/11/bits/stl_map.h:
 
@@ -2167,14 +2177,4 @@ enc_bootloader_elf.h:
 
 /usr/include/c++/11/bits/erase_if.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/whereami/whereami.c:
-
 /usr/include/c++/11/limits:
-
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/clipp/clipp.h:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/c++/11/cstring:

@@ -1,5 +1,5 @@
 CMakeFiles/picotool.dir/data_locs.cpp.o: \
- /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/data_locs.cpp \
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/data_locs.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

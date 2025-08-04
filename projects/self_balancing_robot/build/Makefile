@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daltro/Codes/embedded/self_balancing_robot
+CMAKE_SOURCE_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daltro/Codes/embedded/self_balancing_robot/build
+CMAKE_BINARY_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daltro/Codes/embedded/self_balancing_robot/build/CMakeFiles /home/daltro/Codes/embedded/self_balancing_robot/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/CMakeFiles /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daltro/Codes/embedded/self_balancing_robot/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,19 +169,6 @@ bs2_default_library/fast:
 .PHONY : bs2_default_library/fast
 
 #=============================================================================
-# Target rules for targets named pioasmBuild
-
-# Build rule for target.
-pioasmBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pioasmBuild
-.PHONY : pioasmBuild
-
-# fast build rule for target.
-pioasmBuild/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build
-.PHONY : pioasmBuild/fast
-
-#=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 
 # Build rule for target.
@@ -193,6 +180,2166 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/api_lib.o: home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_lib.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/api_lib.i: home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_lib.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/api_lib.s: home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_lib.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_lib.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/api_msg.o: home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_msg.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/api_msg.i: home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_msg.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/api_msg.s: home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_msg.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/api_msg.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/err.o: home/daltro/pico-sdk/lib/lwip/src/api/err.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/err.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/err.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/err.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/err.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/err.i: home/daltro/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/err.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/err.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/err.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/err.s: home/daltro/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/err.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/err.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/err.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/if_api.o: home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/if_api.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/if_api.i: home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/if_api.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/if_api.s: home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/if_api.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/if_api.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/netbuf.o: home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netbuf.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/netbuf.i: home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netbuf.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/netbuf.s: home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netbuf.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netbuf.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/netdb.o: home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netdb.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/netdb.i: home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netdb.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/netdb.s: home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netdb.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netdb.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/netifapi.o: home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netifapi.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/netifapi.i: home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netifapi.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/netifapi.s: home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netifapi.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/netifapi.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/sockets.o: home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/sockets.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/sockets.i: home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/sockets.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/sockets.s: home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/sockets.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/sockets.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/api/tcpip.o: home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/tcpip.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/api/tcpip.i: home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/tcpip.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/api/tcpip.s: home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/tcpip.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/api/tcpip.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.o: home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i: home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s: home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp.o: home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp.i: home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp.s: home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.o: home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.i: home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.s: home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.o: home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.i: home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.s: home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/def.o: home/daltro/pico-sdk/lib/lwip/src/core/def.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/def.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/def.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/def.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/def.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/def.i: home/daltro/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/def.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/def.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/def.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/def.s: home/daltro/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/def.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/def.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/def.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/dns.o: home/daltro/pico-sdk/lib/lwip/src/core/dns.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/dns.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/dns.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/dns.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/dns.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/dns.i: home/daltro/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/dns.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/dns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/dns.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/dns.s: home/daltro/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/dns.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/dns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/dns.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.o: home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.i: home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.s: home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/init.o: home/daltro/pico-sdk/lib/lwip/src/core/init.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/init.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/init.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/init.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/init.i: home/daltro/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/init.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/init.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/init.s: home/daltro/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/init.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/init.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ip.o: home/daltro/pico-sdk/lib/lwip/src/core/ip.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ip.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ip.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ip.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ip.i: home/daltro/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ip.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ip.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ip.s: home/daltro/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ip.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ip.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.o: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/mem.o: home/daltro/pico-sdk/lib/lwip/src/core/mem.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/mem.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/mem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/mem.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/mem.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/mem.i: home/daltro/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/mem.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/mem.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/mem.s: home/daltro/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/mem.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/mem.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/memp.o: home/daltro/pico-sdk/lib/lwip/src/core/memp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/memp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/memp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/memp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/memp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/memp.i: home/daltro/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/memp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/memp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/memp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/memp.s: home/daltro/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/memp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/memp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/memp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/netif.o: home/daltro/pico-sdk/lib/lwip/src/core/netif.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/netif.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/netif.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/netif.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/netif.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/netif.i: home/daltro/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/netif.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/netif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/netif.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/netif.s: home/daltro/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/netif.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/netif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/netif.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/pbuf.o: home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/pbuf.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/pbuf.i: home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/pbuf.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/pbuf.s: home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/pbuf.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/pbuf.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/raw.o: home/daltro/pico-sdk/lib/lwip/src/core/raw.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/raw.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/raw.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/raw.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/raw.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/raw.i: home/daltro/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/raw.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/raw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/raw.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/raw.s: home/daltro/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/raw.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/raw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/raw.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/stats.o: home/daltro/pico-sdk/lib/lwip/src/core/stats.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/stats.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/stats.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/stats.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/stats.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/stats.i: home/daltro/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/stats.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/stats.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/stats.s: home/daltro/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/stats.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/stats.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/sys.o: home/daltro/pico-sdk/lib/lwip/src/core/sys.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/sys.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/sys.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/sys.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/sys.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/sys.i: home/daltro/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/sys.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/sys.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/sys.s: home/daltro/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/sys.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/sys.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp.o: home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp.i: home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp.s: home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.o: home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.i: home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.s: home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.o: home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.i: home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.s: home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/timeouts.o: home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/timeouts.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/timeouts.i: home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/timeouts.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/timeouts.s: home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/timeouts.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/timeouts.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/core/udp.o: home/daltro/pico-sdk/lib/lwip/src/core/udp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/udp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/core/udp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/udp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/udp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/core/udp.i: home/daltro/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/udp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/core/udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/udp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/core/udp.s: home/daltro/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/udp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/core/udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/core/udp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.o: home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.i: home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.s: home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o: home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.o: home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.i: home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.s: home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.o: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.i: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.s: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.o: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.o: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.i: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.s: home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/slipif.o: home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/slipif.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/slipif.i: home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/slipif.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/slipif.s: home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/slipif.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/slipif.c.s
+
+home/daltro/pico-sdk/lib/lwip/src/netif/zepif.o: home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/zepif.o
+
+# target to build an object file
+home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.o
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.o
+
+home/daltro/pico-sdk/lib/lwip/src/netif/zepif.i: home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/zepif.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.i
+
+home/daltro/pico-sdk/lib/lwip/src/netif/zepif.s: home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/zepif.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/daltro/pico-sdk/lib/lwip/src/netif/zepif.c.s
 
 home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
@@ -994,6 +3141,30 @@ home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.o: home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
 home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.o
 
@@ -1097,6 +3268,30 @@ home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: home/daltr
 home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.o: home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.o
@@ -1338,6 +3533,54 @@ home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+
 home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.o
 
@@ -1473,6 +3716,198 @@ home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/daltro/p
 home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o
@@ -1666,6 +4101,30 @@ home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 
+home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o: home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+
 home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.o: home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.o
 
@@ -1745,6 +4204,30 @@ home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.s: home/daltro/pico-sdk/s
 home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.o: home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.o
+
+# target to build an object file
+home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+
+home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.i: home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.i
+
+# target to preprocess a source file
+home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.s: home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.s
+
+# target to generate assembly for a file
+home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.o
@@ -2058,6 +4541,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/main.c.s
 .PHONY : main.c.s
 
+motor.o: motor.c.o
+.PHONY : motor.o
+
+# target to build an object file
+motor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/motor.c.o
+.PHONY : motor.c.o
+
+motor.i: motor.c.i
+.PHONY : motor.i
+
+# target to preprocess a source file
+motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/motor.c.i
+.PHONY : motor.c.i
+
+motor.s: motor.c.s
+.PHONY : motor.s
+
+# target to generate assembly for a file
+motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/motor.c.s
+.PHONY : motor.c.s
+
 src/basic.o: src/basic.c.o
 .PHONY : src/basic.o
 
@@ -2092,10 +4599,279 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
-	@echo "... pioasmBuild"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... robot"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
+	@echo "... home/daltro/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/api_lib.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/api_lib.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/api_lib.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/api_msg.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/api_msg.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/api_msg.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/err.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/err.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/err.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/if_api.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/if_api.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/if_api.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netbuf.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netbuf.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netbuf.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netdb.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netdb.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netdb.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netifapi.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netifapi.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/netifapi.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/sockets.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/sockets.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/sockets.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/tcpip.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/tcpip.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/def.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/def.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/def.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/dns.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/dns.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/dns.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/inet_chksum.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/init.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/init.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/init.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ip.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ip.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ip.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/mem.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/mem.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/mem.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/memp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/memp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/memp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/netif.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/netif.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/netif.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/pbuf.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/pbuf.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/pbuf.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/raw.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/raw.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/raw.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/stats.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/stats.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/stats.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/sys.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/sys.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/sys.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp_in.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/tcp_out.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/timeouts.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/timeouts.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/timeouts.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/udp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/udp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/core/udp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ethernet.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/slipif.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/slipif.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/slipif.s"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/zepif.o"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/zepif.i"
+	@echo "... home/daltro/pico-sdk/lib/lwip/src/netif/zepif.s"
 	@echo "... home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/daltro/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2196,6 +4972,9 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_exception/exception.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_flash/flash.s"
@@ -2209,6 +4988,9 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_pll/pll.s"
@@ -2239,6 +5021,12 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
@@ -2256,6 +5044,30 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o"
@@ -2280,6 +5092,9 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
@@ -2290,6 +5105,9 @@ help:
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.o"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.i"
+	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_rand/rand.s"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... home/daltro/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
@@ -2329,6 +5147,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... motor.o"
+	@echo "... motor.i"
+	@echo "... motor.s"
 	@echo "... src/basic.o"
 	@echo "... src/basic.i"
 	@echo "... src/basic.s"

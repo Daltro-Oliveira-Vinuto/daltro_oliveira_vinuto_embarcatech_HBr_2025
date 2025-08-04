@@ -4,7 +4,7 @@
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/aes.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/aes.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -97,7 +97,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/aes.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/aesni.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/aesni.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -151,7 +151,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/aesni.c.o: /
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/arc4.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/arc4.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -241,7 +241,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/arc4.c.o: /h
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/aria.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/aria.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -274,7 +274,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/aria.c.o: /h
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/asn1parse.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/asn1parse.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -366,7 +366,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/asn1parse.c.
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/asn1write.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/asn1write.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -458,7 +458,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/asn1write.c.
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/base64.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/base64.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -549,7 +549,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/base64.c.o: 
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/bignum.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/bignum.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -643,7 +643,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/bignum.c.o: 
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/blowfish.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/blowfish.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -696,7 +696,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/blowfish.c.o
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/camellia.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/camellia.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -786,7 +786,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/camellia.c.o
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ccm.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/ccm.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -819,7 +819,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ccm.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/chacha20.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/chacha20.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -852,7 +852,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/chacha20.c.o
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/chachapoly.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/chachapoly.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -885,7 +885,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/chachapoly.c
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/cipher.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/cipher.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -980,7 +980,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/cipher.c.o: 
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/cipher_wrap.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/cipher_wrap.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1072,7 +1072,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/cipher_wrap.
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/cmac.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/cmac.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1105,7 +1105,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/cmac.c.o: /h
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/constant_time.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/constant_time.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1175,7 +1175,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/constant_tim
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/ctr_drbg.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1267,7 +1267,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ctr_drbg.c.o
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/des.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/des.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1300,7 +1300,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/des.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/dhm.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/dhm.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1333,7 +1333,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/dhm.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecdh.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/ecdh.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1366,7 +1366,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecdh.c.o: /h
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecdsa.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/ecdsa.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1462,7 +1462,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecdsa.c.o: /
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecjpake.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/ecjpake.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1495,7 +1495,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecjpake.c.o:
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecp.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/ecp.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1593,7 +1593,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecp.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecp_curves.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/ecp_curves.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1663,7 +1663,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ecp_curves.c
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/entropy.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/entropy.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1757,7 +1757,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/entropy.c.o:
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/entropy_poll.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/entropy_poll.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1873,7 +1873,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/entropy_poll
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/error.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/error.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -1990,7 +1990,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/error.c.o: /
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/gcm.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/gcm.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2023,7 +2023,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/gcm.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/havege.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/havege.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2056,7 +2056,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/havege.c.o: 
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/hkdf.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/hkdf.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2111,7 +2111,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/hkdf.c.o: /h
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/hmac_drbg.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/hmac_drbg.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2203,7 +2203,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/hmac_drbg.c.
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/md.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/md.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2302,7 +2302,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/md.c.o: /hom
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/md2.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/md2.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2335,7 +2335,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/md2.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/md4.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/md4.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2368,7 +2368,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/md4.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/md5.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/md5.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2459,7 +2459,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/md5.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2492,7 +2492,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/memory_buffe
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/mps_reader.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/mps_reader.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2525,7 +2525,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/mps_reader.c
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/mps_trace.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/mps_trace.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2558,7 +2558,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/mps_trace.c.
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/nist_kw.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/nist_kw.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2591,7 +2591,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/nist_kw.c.o:
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/oid.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/oid.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2690,7 +2690,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/oid.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/padlock.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/padlock.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2744,7 +2744,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/padlock.c.o:
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pem.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/pem.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2840,7 +2840,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pem.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pk.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/pk.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -2908,7 +2908,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pk.c.o: /hom
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pk_wrap.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/pk_wrap.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3005,7 +3005,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pk_wrap.c.o:
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pkcs12.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/pkcs12.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3077,7 +3077,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pkcs12.c.o: 
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pkcs5.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/pkcs5.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3176,7 +3176,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pkcs5.c.o: /
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pkparse.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/pkparse.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3277,7 +3277,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pkparse.c.o:
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pkwrite.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/pkwrite.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3377,7 +3377,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/pkwrite.c.o:
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/platform.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/platform.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3463,7 +3463,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/platform.c.o
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/platform_util.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/platform_util.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3538,7 +3538,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/platform_uti
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/poly1305.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/poly1305.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3629,7 +3629,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/poly1305.c.o
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3662,7 +3662,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto.c
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3695,7 +3695,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_a
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3728,7 +3728,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_c
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_client.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_client.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3818,7 +3818,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_d
   /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_aead.h \
   /home/daltro/pico-sdk/lib/mbedtls/include/psa/crypto.h \
   /home/daltro/pico-sdk/lib/mbedtls/include/psa/crypto_platform.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3936,7 +3936,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_d
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -3969,7 +3969,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_e
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4002,7 +4002,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_h
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4035,7 +4035,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_m
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4068,7 +4068,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_r
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_se.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_se.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4101,7 +4101,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_s
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4134,7 +4134,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_s
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4167,7 +4167,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_s
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_its_file.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/psa_its_file.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4200,7 +4200,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/psa_its_file
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ripemd160.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/ripemd160.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4233,7 +4233,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/ripemd160.c.
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/rsa.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/rsa.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4266,7 +4266,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/rsa.c.o: /ho
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/rsa_internal.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/rsa_internal.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4299,7 +4299,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/rsa_internal
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/sha1.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/sha1.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4390,7 +4390,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/sha1.c.o: /h
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/sha256.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/sha256.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4481,7 +4481,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/sha256.c.o: 
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/sha512.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/sha512.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4572,7 +4572,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/sha512.c.o: 
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/threading.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/threading.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4621,7 +4621,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/timing.c.o: 
   /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4724,7 +4724,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/timing.c.o: 
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/version.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/version.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4764,7 +4764,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/version.c.o:
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/version_features.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/version_features.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4804,7 +4804,7 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/version_feat
 lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/xtea.c.o: /home/daltro/pico-sdk/lib/mbedtls/library/xtea.c \
   /usr/include/stdc-predef.h \
   /home/daltro/pico-sdk/lib/mbedtls/library/common.h \
-  /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -4988,10 +4988,6 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/xtea.c.o: /h
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/home/daltro/pico-sdk/lib/mbedtls/library/cipher.c:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -5074,13 +5070,17 @@ lib/CMakeFiles/mbedtls.dir/home/daltro/pico-sdk/lib/mbedtls/library/xtea.c.o: /h
 
 /home/daltro/pico-sdk/lib/mbedtls/library/pem.c:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /home/daltro/pico-sdk/lib/mbedtls/library/psa_crypto_aead.h:
 
-/home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/home/daltro/pico-sdk/lib/mbedtls/library/cipher.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 

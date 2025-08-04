@@ -24,44 +24,55 @@ if (EXISTS ${picoVscode})
 endif()
 # ====================================================================================
 set(PICO_BOARD pico_w CACHE STRING "Board type")
+set(ProjectName robot)
+# pico_set_program_name(${ProjectName} "robot")
+# pico_set_program_version(${ProjectName} "0.1")
+
+
+# Set any variables required for importing libraries
+if (DEFINED ENV{FREERTOS_PATH})
+  SET(FREERTOS_PATH $ENV{FREERTOS_PATH})
+else()
+  SET(FREERTOS_PATH ${CMAKE_CURRENT_LIST_DIR}/FreeRTOS-Kernel)
+endif()
+
+message("FreeRTOS Kernel located in ${FREERTOS_PATH}")
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
+# include(${FREERTOS_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
-project(robot C CXX ASM)
+project(${ProjectName} C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable( robot
+add_executable( ${ProjectName}
   src/basic.c
   main.c
   ./include/ssd1306_i2c.c
+  motor.c
 )
 
-pico_set_program_name(robot "robot")
-pico_set_program_version(robot "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(robot 0)
-pico_enable_stdio_usb(robot 1)
-
-# Add the standard library to the build
-target_link_libraries(robot
-        # Biblioteca padrão do Pico SDK, que fornece funções básicas para o RP2040 (GPIO, temporizadores, UART, etc.).
-        pico_stdlib
-        )
+pico_enable_stdio_uart(${ProjectName} 0)
+pico_enable_stdio_usb(${ProjectName} 1)
 
 # Add the standard include files to the build
-target_include_directories(robot PRIVATE
+target_include_directories(${ProjectName} PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
         ${CMAKE_CURRENT_LIST_DIR}/include
+
 )
 
 # Add any user requested libraries
-target_link_libraries(robot 
+target_link_libraries(${ProjectName}
+        pico_stdlib 
+
+        # pico-sdk hardware libraries 
         hardware_adc
         hardware_dma
         hardware_pwm
@@ -69,7 +80,22 @@ target_link_libraries(robot
         hardware_clocks
         hardware_timer
         hardware_i2c
+
+        # wifi libraries  
+        # Oferece suporte Wi-Fi (CYW43) com LwIP (pilha TCP/IP) em um modo thread-safe em segundo plano.
+        pico_cyw43_arch_lwip_threadsafe_background
+
+        # Adiciona suporte a cliente MQTT sobre o LwIP.
+        pico_lwip_mqtt
+
+        # A pilha Lightweight IP (LwIP), que fornece funcionalidades TCP/IP (HTTP, MQTT, UDP, DHCP, etc.).
+        pico_lwip
+        
+        # O driver do chip Wi-Fi CYW43 (usado no Pico W).
+        pico_cyw43_driver
+        # pico_time
+        # pico_unique_id
 )
 
-pico_add_extra_outputs(robot)
+pico_add_extra_outputs(${ProjectName})
 

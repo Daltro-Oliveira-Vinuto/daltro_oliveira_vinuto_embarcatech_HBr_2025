@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build
 
 # Utility rule file for enc_bootloader.
 
@@ -73,43 +73,43 @@ CMakeFiles/enc_bootloader-complete: enc_bootloader/src/enc_bootloader-stamp/enc_
 CMakeFiles/enc_bootloader-complete: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure
 CMakeFiles/enc_bootloader-complete: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build
 CMakeFiles/enc_bootloader-complete: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/CMakeFiles
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-done
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/CMakeFiles
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-done
 
 enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure
-	cd /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && $(MAKE)
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && $(MAKE)
 
 enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure: enc_bootloader/tmp/enc_bootloader-cfgcmd.txt
 enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch
-	cd /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/daltro/pico-sdk -DUSE_PRECOMPILED:BOOL=true -DUSE_MBEDTLS=0 -DPICO_DEBUG_INFO_IN_RELEASE=OFF "-GUnix Makefiles" /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/enc_bootloader
-	cd /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && /usr/bin/cmake -E touch /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/daltro/pico-sdk -DUSE_PRECOMPILED:BOOL=true -DUSE_MBEDTLS=0 -DPICO_DEBUG_INFO_IN_RELEASE=OFF "-GUnix Makefiles" /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/enc_bootloader
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && /usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure
 
 enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download
 
 enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build
-	cd /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && /usr/bin/cmake -E echo_append
-	cd /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && /usr/bin/cmake -E touch /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && /usr/bin/cmake -E echo_append
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader && /usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install
 
 enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir:
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src/enc_bootloader
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/tmp
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src
-	/usr/bin/cmake -E make_directory /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src/enc_bootloader
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/tmp
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src
+	/usr/bin/cmake -E make_directory /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir
 
 enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch
 
 enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update: enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update
+	/usr/bin/cmake -E touch /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update
 
 enc_bootloader: CMakeFiles/enc_bootloader
 enc_bootloader: CMakeFiles/enc_bootloader-complete
@@ -132,6 +132,6 @@ CMakeFiles/enc_bootloader.dir/clean:
 .PHONY : CMakeFiles/enc_bootloader.dir/clean
 
 CMakeFiles/enc_bootloader.dir/depend:
-	cd /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-src /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build /home/daltro/Codes/embedded/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-src /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/build/_deps/picotool-build/CMakeFiles/enc_bootloader.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/enc_bootloader.dir/depend
 

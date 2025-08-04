@@ -3,16 +3,27 @@
 #include <math.h> // Biblioteca de matemática (função "round" foi utilizada)
 #include <string.h>
 
+// PICO standard libraries  
 #include "pico/stdlib.h" // Biblioteca padrão pico
+#include "pico/cyw43_arch.h" // Driver wifi for the Pico W 
 #include "hardware/gpio.h" // Biblioteca de GPIOs
 #include "hardware/adc.h" // Biblioteca do ADC
 #include "hardware/pwm.h" // Biblioteca do PWM
 #include "hardware/timer.h"
 #include "hardware/i2c.h"
 
+// libraries for the oled screen
 #include "include/basic.h"
 #include "include/ssd1306.h"
 
+// driver for the motor (h bridge tb6612fng)
+#include "motor.h"
+
+
+// global variable to handle the task that control the motor
+//TaskHandle_t xMotorTaskHandle = NULL;
+
+/*
 uint gpio_pwm = 18;     
 uint gpio_pwm2 = 9;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 uint gpio_stdby = 4;
@@ -23,7 +34,7 @@ uint gpio_input2 = 19;
 
 uint gpio_input3 = 7;
 uint gpio_input4= 8;
-
+*/
 
 
 
@@ -125,7 +136,7 @@ int main() {
     gpio_put(gpio_input3, 1);
     gpio_put(gpio_input4, 0);
 
-    sleep_ms(5000);
+    sleep_ms(1000);
     printf("paused\n");
     gpio_put(gpio_input1, 0);
     gpio_put(gpio_input2, 0);
@@ -140,7 +151,7 @@ int main() {
 
     gpio_put(gpio_input3, 0);
     gpio_put(gpio_input4, 1);
-    sleep_ms(5000);
+    sleep_ms(1000);
 
     printf("paused\n"); 
     gpio_put(gpio_input1, 0);
