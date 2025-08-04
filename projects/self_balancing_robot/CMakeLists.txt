@@ -54,6 +54,7 @@ add_executable( ${ProjectName}
   main.c
   ./include/ssd1306_i2c.c
   motor.c
+  mpu6050_i2c.c
 )
 
 

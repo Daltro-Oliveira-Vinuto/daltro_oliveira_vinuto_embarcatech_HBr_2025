@@ -20,149 +20,48 @@
 #include "motor.h"
 
 
-// global variable to handle the task that control the motor
-//TaskHandle_t xMotorTaskHandle = NULL;
-
-/*
-uint gpio_pwm = 18;     
-uint gpio_pwm2 = 9;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-uint gpio_stdby = 4;
-
-uint gpio_input1 = 20; 
-uint gpio_input2 = 19;
-
-
-uint gpio_input3 = 7;
-uint gpio_input4= 8;
-*/
-
-
-
-pwm_t* set_pwm(uint32_t pwm_pin, uint32_t pwm_frequency, uint16_t duty_cycle) {
-
-  pwm_t *pwm;
-
-  pwm = (pwm_t*)malloc(sizeof(pwm_t));
-
-  float clkdiv; // 3.81
-  uint16_t wrap = 10; //find_pwm_wrap(pwm_frequency, clkdiv);
-  clkdiv = ( 1.0*clock_get_hz(clk_sys) )/((wrap)*pwm_frequency);
-  uint16_t gpio_level;
-  gpio_set_function(pwm_pin, GPIO_FUNC_PWM);
-
-  uint32_t slice = pwm_gpio_to_slice_num(pwm_pin);
-
-  pwm_set_wrap(slice, wrap);
-  pwm_set_clkdiv(slice, clkdiv);
-
-  //pwm_set_enabled(slice, true);
-  gpio_level = (duty_cycle/100.0)*wrap;
-  pwm_set_gpio_level(pwm_pin , gpio_level);
-
-  //pwm_set_irq_enabled(slice, true);
-  //irq_set_enabled(PWM_IRQ_WRAP, true);
-
-  pwm->clkdiv = clkdiv;
-  pwm->wrap = wrap;
-  pwm->frequency = ( (125000000)/(clkdiv*wrap) );
-  printf("frequency pwm: %d\n", pwm->frequency);
-  pwm->slice = slice;
-  pwm->gpio = pwm_pin;
-  pwm->gpio_level = gpio_level;
-  pwm->duty_cycle = duty_cycle;
-
-  return pwm;
-}
-
-void set_gpio(void) {
-  gpio_init(gpio_stdby);
-  gpio_set_dir(gpio_stdby, GPIO_OUT);
-  gpio_put(gpio_stdby, 1);
-
-  gpio_init(gpio_input1);
-  gpio_set_dir(gpio_input1, GPIO_OUT);
-  gpio_put(gpio_input1, 1);
-
-  gpio_init(gpio_input2);
-  gpio_set_dir(gpio_input2, GPIO_OUT);
-  gpio_put(gpio_input2, 0);
-
-
-  gpio_init(gpio_input3);
-  gpio_set_dir(gpio_input3, GPIO_OUT);
-  gpio_put(gpio_input3, 1);
-
-  gpio_init(gpio_input4);
-  gpio_set_dir(gpio_input4, GPIO_OUT);
-  gpio_put(gpio_input4, 0);
-}
-
-
 int main() {
-  uint32_t slice, slice2;
-  uint32_t pwm_frequency; // in Hz
-  uint16_t duty_cycle; // in percentage % 
+    stdio_init_all();
+    // setup and enable motor
+    motor_setup();
+    motor_enable();
 
-  pwm_t *pwm_motor_a;
-  pwm_t *pwm_motor_b;
+    // setu and enable mpu6050
+    mpu6050_setup_i2c();
+    mpu6050_reset();
+    int16_t accel_raw[3], gyro_raw[3], temp;
+    float accel[3], gyro[3];
 
-  stdio_init_all();
+    // Exemplo: comando de controle com valor negativo = girar para tras
+    float control_signal = -0.95f * 255.0f;
 
-  set_gpio();
+    bool forward = control_signal > 0; // obtem direcao
+    float magnitude = fabsf(control_signal); // obtem modulo do sinal
+    float limitado = fminf(magnitude, 255.0f); // limita ao maximo de 255
+    uint16_t level = (uint16_t)limitado << 8; // converte e ajusta escala
+    
+    motor_set_both_level(level, forward); // envia comando para motores
 
-  pwm_frequency =40000;
-  duty_cycle = 70;
-  pwm_motor_a = set_pwm(gpio_pwm, pwm_frequency, duty_cycle);
-  pwm_motor_b = set_pwm(gpio_pwm2, pwm_frequency, duty_cycle);
+    sleep_ms(5000); // mantem ligado por 1 segundo
 
+    motor_set_both_level(0, true); // para os motores
 
-  slice = pwm_gpio_to_slice_num(gpio_pwm);
-  slice2 = pwm_gpio_to_slice_num(gpio_pwm2);
+    while (1) {
+        //tight_loop_contents(); // mantém o programa rodando
+        mpu6050_read_raw(accel, gyro, &temp); // armazena valores lido
+        printf("Accel raw X: %d, Y: %d, Z: %d \n", accel_raw[0], accel_raw[1], accel_raw[2]);
+        printf("Gyro raw X: %d, Y: %d, Z: %d \n", gyro_raw[0], gyro_raw[1], gyro_raw[2]);
 
+        // Convert to g's and degrees per second
+        for (uint8_t i = 0; i < 3; i++) {
+            accel[i] = (float)accel_raw[i] / 16384.0f;
+            gyro[i] = (float)gyro_raw[i] / 131.0f;
+        }
+        printf("--------------------------------\n");
+        printf("Accel X: %.3f, Y: %.3f, Z: %.3f \n", accel[0], accel[1], accel[2]);
+        printf("Gyro X: %.3f, Y: %.3f, Z: %.3f \n", gyro[0], gyro[1], gyro[2]);
+        printf("\n\n");
 
-  pwm_set_enabled(slice, true);
-  pwm_set_enabled(slice2, true);
-
-
-  gpio_put(gpio_stdby, 1);
-
-  while (1) {
-
-    printf("forwared direction\n");
-
-    gpio_put(gpio_input1, 1);
-    gpio_put(gpio_input2, 0);
-
-    gpio_put(gpio_input3, 1);
-    gpio_put(gpio_input4, 0);
-
-    sleep_ms(1000);
-    printf("paused\n");
-    gpio_put(gpio_input1, 0);
-    gpio_put(gpio_input2, 0);
-
-    gpio_put(gpio_input3, 0);
-    gpio_put(gpio_input4, 0);
-
-    sleep_ms(1000);
-    printf("backward direction...\n");
-    gpio_put(gpio_input1, 0);
-    gpio_put(gpio_input2, 1);
-
-    gpio_put(gpio_input3, 0);
-    gpio_put(gpio_input4, 1);
-    sleep_ms(1000);
-
-    printf("paused\n"); 
-    gpio_put(gpio_input1, 0);
-    gpio_put(gpio_input2, 0);
-
-    gpio_put(gpio_input3, 0);
-    gpio_put(gpio_input4, 0);
-
-    sleep_ms(1000);
-
-  }
-
-  return 0;
+        sleep_ms(1000);
+    }
 }

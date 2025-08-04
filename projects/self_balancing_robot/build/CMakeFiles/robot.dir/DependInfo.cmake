@@ -349,6 +349,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/include/ssd1306_i2c.c" "CMakeFiles/robot.dir/include/ssd1306_i2c.c.o" "gcc" "CMakeFiles/robot.dir/include/ssd1306_i2c.c.o.d"
   "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/main.c" "CMakeFiles/robot.dir/main.c.o" "gcc" "CMakeFiles/robot.dir/main.c.o.d"
   "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/motor.c" "CMakeFiles/robot.dir/motor.c.o" "gcc" "CMakeFiles/robot.dir/motor.c.o.d"
+  "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/mpu6050_i2c.c" "CMakeFiles/robot.dir/mpu6050_i2c.c.o" "gcc" "CMakeFiles/robot.dir/mpu6050_i2c.c.o.d"
   "/home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/src/basic.c" "CMakeFiles/robot.dir/src/basic.c.o" "gcc" "CMakeFiles/robot.dir/src/basic.c.o.d"
   "/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/robot.dir/home/daltro/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )

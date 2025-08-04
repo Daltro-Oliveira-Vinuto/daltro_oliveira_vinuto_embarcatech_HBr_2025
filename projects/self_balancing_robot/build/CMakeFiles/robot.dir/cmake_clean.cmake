@@ -368,6 +368,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/robot.dir/main.c.o.d"
   "CMakeFiles/robot.dir/motor.c.o"
   "CMakeFiles/robot.dir/motor.c.o.d"
+  "CMakeFiles/robot.dir/mpu6050_i2c.c.o"
+  "CMakeFiles/robot.dir/mpu6050_i2c.c.o.d"
   "CMakeFiles/robot.dir/src/basic.c.o"
   "CMakeFiles/robot.dir/src/basic.c.o.d"
   "robot.elf"

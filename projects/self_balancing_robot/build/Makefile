@@ -4565,6 +4565,30 @@ motor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/motor.c.s
 .PHONY : motor.c.s
 
+mpu6050_i2c.o: mpu6050_i2c.c.o
+.PHONY : mpu6050_i2c.o
+
+# target to build an object file
+mpu6050_i2c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/mpu6050_i2c.c.o
+.PHONY : mpu6050_i2c.c.o
+
+mpu6050_i2c.i: mpu6050_i2c.c.i
+.PHONY : mpu6050_i2c.i
+
+# target to preprocess a source file
+mpu6050_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/mpu6050_i2c.c.i
+.PHONY : mpu6050_i2c.c.i
+
+mpu6050_i2c.s: mpu6050_i2c.c.s
+.PHONY : mpu6050_i2c.s
+
+# target to generate assembly for a file
+mpu6050_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/mpu6050_i2c.c.s
+.PHONY : mpu6050_i2c.c.s
+
 src/basic.o: src/basic.c.o
 .PHONY : src/basic.o
 
@@ -5150,6 +5174,9 @@ help:
 	@echo "... motor.o"
 	@echo "... motor.i"
 	@echo "... motor.s"
+	@echo "... mpu6050_i2c.o"
+	@echo "... mpu6050_i2c.i"
+	@echo "... mpu6050_i2c.s"
 	@echo "... src/basic.o"
 	@echo "... src/basic.i"
 	@echo "... src/basic.s"

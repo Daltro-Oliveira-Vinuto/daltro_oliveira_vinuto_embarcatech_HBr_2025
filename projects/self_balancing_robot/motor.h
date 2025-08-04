@@ -17,13 +17,13 @@
  *  PWM: GP16
  */
 
-#define MOTOR_STDBY           20
-#define MOTOR_LEFT_FORWARD    4
-#define MOTOR_LEFT_BACKWARD   9
-#define MOTOR_LEFT_SIGNAL     8
-#define MOTOR_RIGHT_FORWARD   18
+#define MOTOR_STDBY           4
+#define MOTOR_LEFT_FORWARD    7
+#define MOTOR_LEFT_BACKWARD   8
+#define MOTOR_LEFT_SIGNAL     18
+#define MOTOR_RIGHT_FORWARD   20
 #define MOTOR_RIGHT_BACKWARD  19
-#define MOTOR_RIGHT_SIGNAL    16
+#define MOTOR_RIGHT_SIGNAL    18
 
 extern void motor_setup();
 extern void motor_set_right_level(uint16_t level, bool forward);
