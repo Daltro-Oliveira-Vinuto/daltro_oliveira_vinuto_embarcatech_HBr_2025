@@ -12341,6 +12341,7 @@ CMakeFiles/robot.dir/main.c.o
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/include/ssd1306.h
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/include/ssd1306_i2c.h
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/motor.h
+ /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/mpu6050_i2c.h
 
 CMakeFiles/robot.dir/motor.c.o
  /home/daltro/Codes/daltro_oliveira_vinuto_embarcatech_HBr_2025/projects/self_balancing_robot/motor.c

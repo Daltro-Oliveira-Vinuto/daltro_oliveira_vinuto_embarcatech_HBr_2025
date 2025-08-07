@@ -12162,7 +12162,8 @@ CMakeFiles/robot.dir/main.c.o: ../main.c \
   /home/daltro/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
   ../include/ssd1306.h \
   ../include/ssd1306_i2c.h \
-  ../motor.h
+  ../motor.h \
+  ../mpu6050_i2c.h
 
 CMakeFiles/robot.dir/motor.c.o: ../motor.c \
   ../motor.h \
